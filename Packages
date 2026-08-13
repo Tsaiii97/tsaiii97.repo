@@ -17,23 +17,6 @@ Name: Fix Repair System Power
 
 Package: com.doimty.promotion
 Version: 1.0.11
-Architecture: iphoneos-arm64e
-Maintainer: doimty
-Installed-Size: 108
-Depends: mobilesubstrate
-Filename: ./debs/com.doimty.promotion_1.0.11_iphoneos-arm64e.deb
-Size: 16586
-MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
-SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
-SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
-Section: Tweaks
-Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
-Tag: supports::roothide
-Author: doimty
-Name: ProMotion 120Hz
-
-Package: com.doimty.promotion
-Version: 1.0.11
 Architecture: iphoneos-arm64
 Maintainer: doimty
 Installed-Size: 108
@@ -49,21 +32,22 @@ Tag: supports::roothide
 Author: doimty
 Name: ProMotion 120Hz
 
-Package: com.iosdump.screenrecordnostatusbar
-Version: 0.1
+Package: com.doimty.promotion
+Version: 1.0.11
 Architecture: iphoneos-arm64e
-Maintainer: iosdump
-Installed-Size: 168
+Maintainer: doimty
+Installed-Size: 108
 Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm64e.deb
-Size: 5544
-MD5sum: b059901226309364e1de5b2bb65e924b
-SHA1: 178ca76d18411b2e9ed22dba50594aa6775318b8
-SHA256: 36c8a814c849266df270f068140bededa6337dabca63eb186dd9c8ecafc1344b
+Filename: ./debs/com.doimty.promotion_1.0.11_iphoneos-arm64e.deb
+Size: 16586
+MD5sum: 5a0ee7e408dd8a65580c06ddf0be4c13
+SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
+SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
 Section: Tweaks
-Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
-Author: iosdump
-Name: ScreenRecordNoStatusBar
+Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
 
 Package: com.iosdump.screenrecordnostatusbar
 Version: 0.1
@@ -76,6 +60,22 @@ Size: 5608
 MD5sum: a025750a9fb7eae75a8bebdc735b8fc2
 SHA1: 27a2d1cff9f51f7d2261453bd2e43e433a4e0986
 SHA256: f0495fa6fdfae5b21e8e4cbe6b52853a0dd2b0bae2901d5d1ffded40c9f4e70b
+Section: Tweaks
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
+Author: iosdump
+Name: ScreenRecordNoStatusBar
+
+Package: com.iosdump.screenrecordnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64e
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm64e.deb
+Size: 5544
+MD5sum: b059901226309364e1de5b2bb65e924b
+SHA1: 178ca76d18411b2e9ed22dba50594aa6775318b8
+SHA256: 36c8a814c849266df270f068140bededa6337dabca63eb186dd9c8ecafc1344b
 Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
@@ -96,6 +96,22 @@ Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
 Name: ScreenRecordNoStatusBar
+
+Package: com.iosdump.screenshotnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
+Size: 5176
+MD5sum: 9c9dcf47918497fe2dd5a850a1e1b4bf
+SHA1: 371b3c0b230789d8f7801d9a9daf0824844199fc
+SHA256: 25115e1544a390b2f85f7db02e43c5f12d38901c9418dde52f2665c1664b9989
+Section: Tweaks
+Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
+Author: iosdump
+Name: ScreenshotNoStatusBar
 
 Package: com.iosdump.screenshotnostatusbar
 Version: 0.1
@@ -124,22 +140,6 @@ Size: 5108
 MD5sum: 5c84d1577d96dd85891693702d412ba0
 SHA1: c4bee3597170bdba2b9ed5af5ceafe500d829cff
 SHA256: 3daf915e92594fa4d8fa802da961e19b571d080e4e5a2a820252f3b44801bfa0
-Section: Tweaks
-Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
-Author: iosdump
-Name: ScreenshotNoStatusBar
-
-Package: com.iosdump.screenshotnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
-Size: 5176
-MD5sum: 9c9dcf47918497fe2dd5a850a1e1b4bf
-SHA1: 371b3c0b230789d8f7801d9a9daf0824844199fc
-SHA256: 25115e1544a390b2f85f7db02e43c5f12d38901c9418dde52f2665c1664b9989
 Section: Tweaks
 Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
