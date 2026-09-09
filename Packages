@@ -15,6 +15,38 @@ Tag: supports::roothide
 Author: doimty
 Name: Fix Repair System Power
 
+Package: com.doimty.nrmanager
+Version: 1.7.5
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 1688
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64e.deb
+Size: 274710
+MD5sum: 617b20edf8006a62252444fa407bdd5a
+SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
+SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
+Section: Control Center (Modules)
+Description: Select NR bands and view live serving status in Control Center
+Author: doimty
+Name: NR Manager
+
+Package: com.doimty.nrmanager
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 1720
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64.deb
+Size: 258806
+MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
+SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
+SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
+Section: Control Center (Modules)
+Description: Select NR bands and view live serving status in Control Center
+Author: doimty
+Name: NR Manager
+
 Package: com.doimty.promotion
 Version: 1.0.11
 Architecture: iphoneos-arm64e
@@ -327,4 +359,20 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
 Name: Vedette
+
+Package: me.nixuge.networkmanager
+Version: 1.4.3
+Architecture: iphoneos-arm64e
+Maintainer: Nixuge, 灰灰
+Installed-Size: 396
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/me.nixuge.networkmanager_1.4.3_iphoneos-arm64e.deb
+Size: 35522
+MD5sum: c7e2c01c62b9d84c624d8a4b484d0fac
+SHA1: 345053689fe1f6733ad9656c4b3da97aff7a03e3
+SHA256: 2ac00177545f169578d4d030e2577005c20c0d7454a4684321a326529198d516
+Section: Control Center (Modules)
+Description: Force 2G/3G/4G/5G connection from the Control Center (Roothide build)
+Author: NoisyFlake, Nixuge, 灰灰
+Name: NetworkManagerReborn Roothide
 
