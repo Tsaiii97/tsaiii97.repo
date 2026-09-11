@@ -326,6 +326,22 @@ Name: TrollStore Lite (RootHide)
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-260910
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 8140
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-260910_iphoneos-arm64.deb
+Size: 2217896
+MD5sum: f27da2075c784e20d2566f8656314551
+SHA1: 67aff058a00f9f468912fb295b7f1df856bbcd6b
+SHA256: 1277544de31c1de93c588036d541f357e13f1103517e843e193bf995aa7c2cf5
+Section: Applications
+Description: TrollStore for jailbroken iOS (iosdump魔改版)
+Author: opa334
+Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-260910
 Architecture: iphoneos-arm64e
 Maintainer: opa334
 Installed-Size: 8140
