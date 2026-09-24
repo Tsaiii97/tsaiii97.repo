@@ -127,6 +127,38 @@ Description: 为指定App开启守护后台，将任务角色注册为Inactive(�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stayalivelite
+Version: 0.2.2
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1004
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.2.2_iphoneos-arm64.deb
+Size: 108120
+MD5sum: fc32376b0701143ece8dd8ae6d6f0bdb
+SHA1: c443d4851755de8a87c7ba1b8223beae7b6f6468
+SHA256: 42ae76ac59d189a5f0f7fb98eaa436464e8d3b5fdec83fd51ec2aec243dd88bc
+Section: Tweaks
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.2.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 492
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.2.2_iphoneos-arm64e.deb
+Size: 78978
+MD5sum: 3ca2123fa89901c61b1b19b9a36b4470
+SHA1: 0df10964508e915dd5ade891821c3e465cad0d4c
+SHA256: 9eb277761c780abcdb62515e2d1123aa53e65cc999ff4b5d3da66a331cccab72
+Section: Tweaks
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Author: crctdd
+Name: StayAlive Lite
+
 Package: com.doimty.fixrepairsystempower
 Version: 0.0.8
 Architecture: iphoneos-arm64e
@@ -178,23 +210,6 @@ Name: NR Manager
 
 Package: com.doimty.promotion
 Version: 1.0.11
-Architecture: iphoneos-arm64
-Maintainer: doimty
-Installed-Size: 108
-Depends: mobilesubstrate
-Filename: ./debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
-Size: 16710
-MD5sum: 25325a3c9a3b24dead546d42869d0b79
-SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
-SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
-Section: Tweaks
-Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
-Tag: supports::roothide
-Author: doimty
-Name: ProMotion 120Hz
-
-Package: com.doimty.promotion
-Version: 1.0.11
 Architecture: iphoneos-arm64e
 Maintainer: doimty
 Installed-Size: 108
@@ -206,6 +221,23 @@ SHA1: b2698740b46b77ab64d60d16e6044716b3a3adba
 SHA256: 440bf37bc3cdd0ccc5a0c823e861a4c514f4423e91dc2649ebb2e801c3596900
 Section: Tweaks
 Description: Force global 120Hz ProMotion, bypass the 80Hz system cap. iPhone 13 Pro and above only.
+Tag: supports::roothide
+Author: doimty
+Name: ProMotion 120Hz
+
+Package: com.doimty.promotion
+Version: 1.0.11
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 108
+Depends: mobilesubstrate
+Filename: ./debs/com.doimty.promotion_1.0.11_iphoneos-arm64.deb
+Size: 16710
+MD5sum: 25325a3c9a3b24dead546d42869d0b79
+SHA1: 5694e3949b3c33f2cfc809c24987b438d7abbb7f
+SHA256: a0d8465cf376eccfd60f39eaba986b89325d082e53fac4da9dae24fed8db5e7d
+Section: Tweaks
+Description: Force global 120Hz ProMotion on iPhone 13 Pro+. Bypasses the 80Hz system cap and maintains 120Hz in apps that block tweak injection via a persistent keepalive DisplayLink.
 Tag: supports::roothide
 Author: doimty
 Name: ProMotion 120Hz
@@ -246,6 +278,22 @@ Name: URL Scheme Guard Core
 
 Package: com.iosdump.screenrecordnostatusbar
 Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm.deb
+Size: 5532
+MD5sum: 6d0f9ced8efac5026efac4fc722e3230
+SHA1: ea300272b560654d5aad4e4bc1dc4f6b54f0dc77
+SHA256: a7b3f931d6e99562abae93acfdf16b12811ce01f654a5cf9e39f091984ee7cae
+Section: Tweaks
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
+Author: iosdump
+Name: ScreenRecordNoStatusBar
+
+Package: com.iosdump.screenrecordnostatusbar
+Version: 0.1
 Architecture: iphoneos-arm64e
 Maintainer: iosdump
 Installed-Size: 168
@@ -271,22 +319,6 @@ Size: 5608
 MD5sum: a025750a9fb7eae75a8bebdc735b8fc2
 SHA1: 27a2d1cff9f51f7d2261453bd2e43e433a4e0986
 SHA256: f0495fa6fdfae5b21e8e4cbe6b52853a0dd2b0bae2901d5d1ffded40c9f4e70b
-Section: Tweaks
-Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
-Author: iosdump
-Name: ScreenRecordNoStatusBar
-
-Package: com.iosdump.screenrecordnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm.deb
-Size: 5532
-MD5sum: 6d0f9ced8efac5026efac4fc722e3230
-SHA1: ea300272b560654d5aad4e4bc1dc4f6b54f0dc77
-SHA256: a7b3f931d6e99562abae93acfdf16b12811ce01f654a5cf9e39f091984ee7cae
 Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
@@ -472,22 +504,6 @@ Name: TrollStore Lite (RootHide)
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-260910
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 8140
-Depends: ldid
-Filename: ./debs/com.opa334.trollstorelite_2.1.1-260910_iphoneos-arm64e.deb
-Size: 2217496
-MD5sum: b2f0a42ab22cac53505875c11768f204
-SHA1: 5f835e740f493ad2596dc68219a7e97491363a8b
-SHA256: 0ffd035f36ce6bbc087161b1c79890e68553d040e6fbf7dc738d18604fb662e1
-Section: Applications
-Description: TrollStore for RootHide jailbroken iOS (iosdump魔改版)
-Author: opa334
-Name: TrollStore Lite (RootHide)
-
-Package: com.opa334.trollstorelite
-Version: 2.1.1-260910
 Architecture: iphoneos-arm64
 Maintainer: opa334
 Installed-Size: 8140
@@ -501,6 +517,22 @@ Section: Applications
 Description: TrollStore for jailbroken iOS (iosdump魔改版)
 Author: opa334
 Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-260910
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 8140
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-260910_iphoneos-arm64e.deb
+Size: 2217496
+MD5sum: b2f0a42ab22cac53505875c11768f204
+SHA1: 5f835e740f493ad2596dc68219a7e97491363a8b
+SHA256: 0ffd035f36ce6bbc087161b1c79890e68553d040e6fbf7dc738d18604fb662e1
+Section: Applications
+Description: TrollStore for RootHide jailbroken iOS (iosdump魔改版)
+Author: opa334
+Name: TrollStore Lite (RootHide)
 
 Package: com.udevs.vedette
 Version: 1.1.10
