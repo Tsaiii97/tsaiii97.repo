@@ -67,6 +67,38 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
+Package: com.crctdd.cranedd
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Filename: ./debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64.deb
+Size: 24740
+MD5sum: d89ba41994808e651f59d83a78dcb5f9
+SHA1: 56b45a2da32805a869de8cf3a7b71a8054bdd554
+SHA256: 7e1554a03090e012ebfad1eb64756267d9f61eb82b1811cd0cd903bc99787ee3
+Section: Tweaks
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Crane Drop Down
+
+Package: com.crctdd.cranedd
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 112
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0), com.opa334.crane
+Filename: ./debs/com.crctdd.cranedd_0.0.1_iphoneos-arm64e.deb
+Size: 17570
+MD5sum: 1d778532a27627292e12c47967713f30
+SHA1: 15cb2b15636b8879bd355ed11ccd089b089ecb14
+SHA256: 30214bc08a60d25ca885d9076019b5602e3d99b7b5cea31fdd712a323f6b4258
+Section: Tweaks
+Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Crane Drop Down
+
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.1
 Architecture: iphoneos-arm64e
@@ -1420,6 +1452,36 @@ SHA256: 1277544de31c1de93c588036d541f357e13f1103517e843e193bf995aa7c2cf5
 Section: Applications
 Description: TrollStore for jailbroken iOS (iosdump魔改版)
 Author: opa334
+Name: TrollStore Lite
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-261003
+Architecture: iphoneos-arm64e
+Maintainer: opa334
+Installed-Size: 11424
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-261003_iphoneos-arm64e.deb
+Size: 3682636
+MD5sum: 598e10f5eeccd49adc0b040c8a1d4609
+SHA1: b8a63d66b9fdf815f755816b91c66670ded4f3ee
+SHA256: 419cb70297cbb058b841ea139eea1784aee790ef0aeb40c2f6e9abcdaba61924
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite (RootHide)
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-261003
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 11424
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-261003_iphoneos-arm64.deb
+Size: 3682784
+MD5sum: 8f10f8c0fc4254a5098a91ba4ccb1c2c
+SHA1: ac038e91d2e4844f08e7cf9049efab3962bed40b
+SHA256: b74a246625730e6f30aa1720dd5906c664798617b05e76df050de1aa6901299f
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
 Name: TrollStore Lite
 
 Package: com.roothide.manager
