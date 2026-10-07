@@ -1765,6 +1765,24 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.
 Name: Vedette
 
 Package: com.udevs.vedette
+Version: 1.1.10-1+ui2
+Architecture: iphoneos-arm64e
+Maintainer: udevs
+Installed-Size: 624
+Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Filename: ./debs/com.udevs.vedette_1.1.10-1+ui2_iphoneos-arm64e.deb
+Size: 94906
+MD5sum: 54ad28f0d93db1333183886dc1b2a67a
+SHA1: ace92158c0d8d457fe711b9383ba3235308fd500
+SHA256: b76a8a1011d66df9eb5ee2722db29715250bf6e97bdbcaf5dd166c4d64954b1e
+Section: Tweaks
+Description: Monitor CPU hogging processes
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
+Name: Vedette
+
+Package: com.udevs.vedette
 Version: 1.1.5
 Architecture: iphoneos-arm64e
 Maintainer: udevs
