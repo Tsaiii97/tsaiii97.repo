@@ -359,6 +359,38 @@ Description: 系统相册增加视频进度条 (支持iOS 15-17)
 Author: crctdd
 Name: 系统相册视频进度条
 
+Package: com.crctdd.sbtrim
+Version: 0.0.10
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sbtrim_0.0.10_iphoneos-arm64e.deb
+Size: 44642
+MD5sum: 2aa70f0de1cb8f195e183a00e5319aa5
+SHA1: 94f30413ec0f907b120ed92b9213bcc212381437
+SHA256: f87d78bfdd02459bb2d2bdec759afcf7725c23197f84f8236d9e5ed170aa385d
+Section: Tweaks
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Author: crctdd
+Name: SBTrim
+
+Package: com.crctdd.sbtrim
+Version: 0.0.15
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 524
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sbtrim_0.0.15_iphoneos-arm64e.deb
+Size: 73022
+MD5sum: 0d5b656fc9e24bc5a386c51be26407a1
+SHA1: 6eba604d3fed08474758db7bd72ddcd41dfb66a9
+SHA256: 2339320c5fb22abe8142510dda562070b0e85703a74acc98c75d33c427908b50
+Section: Tweaks
+Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量优化回收。(支持iOS 15-17)
+Author: crctdd
+Name: SBTrim
+
 Package: com.crctdd.shorbar
 Version: 0.0.6
 Architecture: iphoneos-arm64e
@@ -1389,6 +1421,46 @@ Description: Rule-driven URL scheme interception core. Blocks or redirects URL s
 Tag: purpose::uikit, compatible::ios14
 Author: doimty
 Name: URL Scheme Guard Core
+
+Package: com.doimty.vedette
+Version: 1.1.12-3
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 976
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: ./debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64e.deb
+Size: 139760
+MD5sum: c22ca54ba4ebc925b772d800f95ec338
+SHA1: b5f67c0282013cae7c8adb4baed05c2e45dfd32d
+SHA256: 7260ea721e499d8ef3d8557b3935a02da91eef081b4b57e4d80b8a152a8cc78e
+Section: Tweaks
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Author: udevs
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Name: Vedette
+
+Package: com.doimty.vedette
+Version: 1.1.12-3
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 976
+Depends: firmware (>= 15.0), preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: ./debs/com.doimty.vedette_1.1.12-3_iphoneos-arm64.deb
+Size: 142600
+MD5sum: e8bf9c465efafdf60a2be386d45e4aa2
+SHA1: 5f7d39ffa048c80216a307ad48baa7cb031002af
+SHA256: 5432717afbf0cf3a50111ed93ea15a10d4a0ecce96b75e0c594a2e28577e1c09
+Section: Tweaks
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级
+Author: udevs
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Name: Vedette
 
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
