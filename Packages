@@ -265,6 +265,38 @@ Description: 在Filza内的.deb/.ipa/.tipa安装包长按可规范命名。
 Author: crctdd
 Name: Filza Rename
 
+Package: com.crctdd.gifmake
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.crctdd.gifmake_0.0.1_iphoneos-arm64.deb
+Size: 8598
+MD5sum: 1977c8b1a7d33afa3d448497ed7c3947
+SHA1: a8de7f72712d75b56c905aa57c3e6881e21ab721
+SHA256: 40263f569a1530b55a75a5588f8ba6f8bc6a29495cfae5258ccc5be8239f9478
+Section: Utilities
+Description: 终端cd 图片目录，回车，gifmake，回车，可获得一张.gif。输入fps 30，就是30帧。输入speed 1.5，就是动画速度1.5倍。
+Author: crctdd
+Name: GIFMake
+
+Package: com.crctdd.gifmake
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 168
+Depends: firmware (>= 14.0)
+Filename: ./debs/com.crctdd.gifmake_0.0.1_iphoneos-arm64e.deb
+Size: 8538
+MD5sum: c8285b1298adb632f8639bdf3ba4457e
+SHA1: f389eaf7816d7c6758f096dcbb831d7e0260280c
+SHA256: e7156f4eca08a143aee64bd6a2bb512f63a1dcba55e2fd5c4b17b8d482415b36
+Section: Utilities
+Description: 终端cd 图片目录，回车，gifmake，回车，可获得一张.gif。输入fps 30，就是30帧。输入speed 1.5，就是动画速度1.5倍。
+Author: crctdd
+Name: GIFMake
+
 Package: com.crctdd.memtrim
 Version: 0.0.1
 Architecture: iphoneos-arm64
@@ -1388,6 +1420,57 @@ Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
 Name: StayAlive Lite
+
+Package: com.crctdd.surgectl
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: RrrankkK
+Installed-Size: 720
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm.deb
+Size: 22248
+MD5sum: e1323917385c4aeb6587cab50c49fdd0
+SHA1: 18f70c943aab2ee5a9286927ec6f96967d9bae87
+SHA256: 16353c4389a37abade22e66e7423118954873891585e67102489b46d2568802c
+Section: Utilities
+Priority: optional
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Author: RrrankkK
+Name: SurgeCTL
+
+Package: com.crctdd.surgectl
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: RrrankkK
+Installed-Size: 720
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64e.deb
+Size: 20692
+MD5sum: 06a2cfeb814ccd8d78a3433a167084bb
+SHA1: 6989720a2fdffc95cc592543211c4b705178c2da
+SHA256: 11dd236f11288208a9c25c457dd7a2dbf0d52c1d448b8fbcb27eb91da4f39ee9
+Section: Utilities
+Priority: optional
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Author: RrrankkK
+Name: SurgeCTL
+
+Package: com.crctdd.surgectl
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: RrrankkK
+Installed-Size: 720
+Depends: firmware (>= 14.0), com.opa334.ccsupport
+Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64.deb
+Size: 22106
+MD5sum: 77d5936b67b630691b842cbead1222f8
+SHA1: 7d462570b9bf015fab22c808aac35cb2d3ce262a
+SHA256: f90e97f972c965663fc55454987f73c5f01fbd7fa4233f1fa24519cd4f87994a
+Section: Utilities
+Priority: optional
+Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
+Author: RrrankkK
+Name: SurgeCTL
 
 Package: com.crctdd.taplink
 Version: 0.0.5
