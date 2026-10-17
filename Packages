@@ -2469,6 +2469,42 @@ Depiction: https://github.com/roothide/RootHideManagerApp
 Name: RootHide Manager
 Support: https://github.com/roothide/RootHideManagerApp
 
+Package: com.sini921.zoomanimation
+Version: 0.0.1-13
+Architecture: iphoneos-arm64e
+Maintainer: SINI
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.zoomanimation_0.0.1-13_iphoneos-arm64e.deb
+Size: 58364
+MD5sum: 1c05d63c0de09a6c0a2ab4b35cda6472
+SHA1: 517eca23ec89285819ab5273e03c06df08fc4b5b
+SHA256: 910def24e7bcfa271fd4deef1bf7424a3550a81efe48c4a79ccc5351eef2b265
+Section: 越狱插件
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Name: ZoomAnimation(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+
+Package: com.sini921.zoomanimation
+Version: 0.0.1-13
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.zoomanimation_0.0.1-13_iphoneos-arm64.deb
+Size: 59272
+MD5sum: 1ad66a86651d725b5ef70165af03e49f
+SHA1: 69522aee0fcf15189ec174027b94dd5b051e2a40
+SHA256: 20ca192ecdd0e3983332e0735dfdc14fcbb86488b9a92a0f033b5495d92b8dfc
+Section: 越狱插件
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Name: ZoomAnimation(rootless)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+
 Package: com.udevs.vedette
 Version: 1.1.10
 Architecture: iphoneos-arm64e
