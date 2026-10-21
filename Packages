@@ -2203,6 +2203,26 @@ Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
 Icon: https://doimty.github.io/icons/com.doimty.vedette.png
 Name: Vedette
 
+Package: com.doimty.vedette
+Version: 1.1.14-2
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 1344
+Depends: firmware (>= 15.0), roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Conflicts: com.udevs.vedette
+Replaces: com.udevs.vedette
+Filename: ./debs/com.doimty.vedette_1.1.14-2_iphoneos-arm64e.deb
+Size: 230120
+MD5sum: 7eea14b38ad0930f1f6ab309d2546cd1
+SHA1: 1b77c90518823c1dd0184766421aeadafdd3e781
+SHA256: 323186bbe9493e664168601b5bbeea5cd4f84dffe51f1d96543fd50dcae7b2c5
+Section: Tweaks
+Description: 按应用与守护进程独立管理 CPU 限制和 nice 调度优先级，支持内存上限及回收优先级规则
+Author: udevs
+Depiction: https://doimty.github.io/depictions/com.doimty.vedette/
+Icon: https://doimty.github.io/icons/com.doimty.vedette.png
+Name: Vedette
+
 Package: com.hang.squidgesturepro-ios17fix
 Version: 2.3
 Architecture: iphoneos-arm64e
