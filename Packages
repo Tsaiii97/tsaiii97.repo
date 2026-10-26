@@ -15,6 +15,22 @@ Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
 Name: HelloMnt
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
 
+Package: cn.zqbb.hello.mnt
+Version: 99.99
+Architecture: iphoneos-arm64e
+Maintainer: zqbb
+Installed-Size: 3156
+Filename: ./debs/cn.zqbb.hello.mnt_99.99_iphoneos-arm64e.deb
+Size: 841116
+MD5sum: 5cbf7b1277bbb80816a937cb2df9a68b
+SHA1: 9ce7650cebfdf8d919d6460976fff47eba693537
+SHA256: c70d5a88ee82dd201e93c63a91622c7d3c348f39b332d0dee329cee5afefb376
+Section: zqbb Tweaks
+Description: Relaxin 挂载器!
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
+Name: HelloMnt
+
 Package: cn.zqbb.stopautolaunchapps
 Version: 2.5
 Architecture: iphoneos-arm64e
@@ -2564,6 +2580,40 @@ Description: 应用、插件数据管理工具，一键备份/恢复
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/idata.png
 Name: iData
+
+Package: com.nan.bindfs
+Version: 0.7.1
+Architecture: iphoneos-arm64e
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/com.nan.bindfs_0.7.1_iphoneos-arm64e.deb
+Size: 39252
+MD5sum: 90b0556f7bf6c64ca3ffcef8ed7f5fa6
+SHA1: 1b8f4ce4721a0a61fefda2cfd148466a5b293083
+SHA256: 5ae4823b735cc151f796d7a8c719033504a0877fffc835abbd8caf0fe44e4640
+Section: System
+Description: bindfs 挂载工具
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: mount_bindfs
+
+Package: com.nan.bindfs
+Version: 0.7.1
+Architecture: iphoneos-arm64
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/com.nan.bindfs_0.7.1_iphoneos-arm64.deb
+Size: 42340
+MD5sum: 6a5ab67c3ff2f413c36c8edb3a16ba5d
+SHA1: 331b378488028730216fba1e978c43a9a8cf3444
+SHA256: 93e28d9e5d9f5a2773a6fb6e907c008a696123dc4ba5a9d2c90ef73b558d9c40
+Section: System
+Description: bindfs 挂载工具
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+Name: mount_bindfs
 
 Package: com.opa334.trollstorelite
 Version: 1.0.3
