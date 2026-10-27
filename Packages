@@ -2615,6 +2615,21 @@ Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 Name: mount_bindfs
 
+Package: com.nan.fix-filza-path
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: sed, plutil
+Filename: ./debs/com.nan.fix-filza-path_0.1.0_iphoneos-arm64e.deb
+Size: 1620
+MD5sum: 74d2a4a3a73edc9400f5919df9d9e4d6
+SHA1: 9ee89bfe24cdb139aaf0d8fe8b5882b8d37f9a81
+SHA256: 7938228deead5f93cf8d13e558213ac539feb0d843663a49b65abfac6c5d2ef5
+Section: Addons
+Description: 缓解 RootHide 下 Filza 经常重启后路径对不上的问题
+Author: zhaonan
+Name: Fix Filza Path
+
 Package: com.opa334.trollstorelite
 Version: 1.0.3
 Architecture: iphoneos-arm64e
