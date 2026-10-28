@@ -52,23 +52,6 @@ Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
 Package: com.be-huge.floating-view
 Version: 1.6.0-6
-Architecture: iphoneos-arm64e
-Maintainer: be-huge
-Installed-Size: 3360
-Pre-Depends: rootless-compat(>= 0.9)
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: ./debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
-Size: 1771730
-MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
-SHA1: 0036b0f68922138498230c48df959572383a651a
-SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
-Section: Tweaks
-Description: 分屏，不必太复杂，一切从简即可。
-Author: be-huge
-Name: floatingView
-
-Package: com.be-huge.floating-view
-Version: 1.6.0-6
 Architecture: iphoneos-arm64
 Maintainer: be-huge
 Installed-Size: 3360
@@ -83,21 +66,22 @@ Description: 分屏，不必太复杂，一切从简即可。
 Author: be-huge
 Name: floatingView
 
-Package: com.crctdd.autocopyverify
-Version: 0.0.3
+Package: com.be-huge.floating-view
+Version: 1.6.0-6
 Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 300
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.autocopyverify_0.0.3_iphoneos-arm64e.deb
-Size: 36576
-MD5sum: e8b72157b42b605ec2861dea9657d342
-SHA1: 5d9bd4856a8385d419eb060f3874a3647186a595
-SHA256: 748ce2829405a704cb4478808a3cd232bfea72bce1fab46648b01fdc9f47483e
+Maintainer: be-huge
+Installed-Size: 3360
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: ./debs/com.be-huge.floating-view_1.6.0-6_iphoneos-arm64e.deb
+Size: 1771730
+MD5sum: cba48e5bea1e58f68bdb28b3b73e4c23
+SHA1: 0036b0f68922138498230c48df959572383a651a
+SHA256: 7ebdbc67e7d398d824996928358c051d29eb5085e61865b96d23b52dde23fab4
 Section: Tweaks
-Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
-Author: crctdd
-Name: Auto Copy Verify
+Description: 分屏，不必太复杂，一切从简即可。
+Author: be-huge
+Name: floatingView
 
 Package: com.crctdd.autocopyverify
 Version: 0.0.3
@@ -116,16 +100,16 @@ Author: crctdd
 Name: Auto Copy Verify
 
 Package: com.crctdd.autocopyverify
-Version: 0.0.5
+Version: 0.0.3
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 740
+Installed-Size: 300
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.autocopyverify_0.0.5_iphoneos-arm64e.deb
-Size: 77884
-MD5sum: 57577047708f37ac35850896edc2b82b
-SHA1: 19c0462ea790dafc10ed15bb38d3db986c1428e0
-SHA256: 1a220ff5406933c519d28f8a0924ca1d6513ad6ce1507cdf5dae9825b620d53e
+Filename: ./debs/com.crctdd.autocopyverify_0.0.3_iphoneos-arm64e.deb
+Size: 36576
+MD5sum: e8b72157b42b605ec2861dea9657d342
+SHA1: 5d9bd4856a8385d419eb060f3874a3647186a595
+SHA256: 748ce2829405a704cb4478808a3cd232bfea72bce1fab46648b01fdc9f47483e
 Section: Tweaks
 Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
 Author: crctdd
@@ -142,6 +126,22 @@ Size: 100532
 MD5sum: 25a432a2df8b0cbb8ea78ea39d2c695f
 SHA1: 6838f9e055fa73084a5843dc96fcd91539cb11a2
 SHA256: 0e028e419b7fe0eefc6d9b834adb9bde73e5071fcdc6e94df4c74b89532cab90
+Section: Tweaks
+Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
+Author: crctdd
+Name: Auto Copy Verify
+
+Package: com.crctdd.autocopyverify
+Version: 0.0.5
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 740
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.autocopyverify_0.0.5_iphoneos-arm64e.deb
+Size: 77884
+MD5sum: 57577047708f37ac35850896edc2b82b
+SHA1: 19c0462ea790dafc10ed15bb38d3db986c1428e0
+SHA256: 1a220ff5406933c519d28f8a0924ca1d6513ad6ce1507cdf5dae9825b620d53e
 Section: Tweaks
 Description: 自动复制短信、系统邮件、部分主流第三方邮件的验证码到剪切板，第三方邮件只能从临时通知框内获取，获取不到则无法复制；无设置项。（支持iOS 15-17）
 Author: crctdd
@@ -455,22 +455,6 @@ Name: Disable CallPoP
 
 Package: com.crctdd.disablecallpop
 Version: 0.0.2
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 88
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.disablecallpop_0.0.2_iphoneos-arm64e.deb
-Size: 4056
-MD5sum: 8dc7d31763aba0ef609eb8a9293ab64a
-SHA1: 39836de8743cb4f0d31e434a7388f5916f5eacdf
-SHA256: e1f79d0b9960e3cf4fc7c311aa03b9f22e8cad3d973a8c203ab454905b237303
-Section: Tweaks
-Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
-Author: crctdd
-Name: Disable CallPoP
-
-Package: com.crctdd.disablecallpop
-Version: 0.0.2
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 200
@@ -485,21 +469,21 @@ Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
 Author: crctdd
 Name: Disable CallPoP
 
-Package: com.crctdd.disablecarrierpop
-Version: 0.0.1
-Architecture: iphoneos-arm64
+Package: com.crctdd.disablecallpop
+Version: 0.0.2
+Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 168
+Installed-Size: 88
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.disablecarrierpop_0.0.1_iphoneos-arm64.deb
-Size: 4370
-MD5sum: 016c7f8f0e0c9f15c32760cd6b5dd553
-SHA1: d985b9be650377187318c06b67a47c0c2bcf7771
-SHA256: 02347c242889589e36373862a8a7d16699b35c1d0f16ad4081f7fb93db328cbc
+Filename: ./debs/com.crctdd.disablecallpop_0.0.2_iphoneos-arm64e.deb
+Size: 4056
+MD5sum: 8dc7d31763aba0ef609eb8a9293ab64a
+SHA1: 39836de8743cb4f0d31e434a7388f5916f5eacdf
+SHA256: e1f79d0b9960e3cf4fc7c311aa03b9f22e8cad3d973a8c203ab454905b237303
 Section: Tweaks
-Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
+Description: 禁用闪信弹窗通知；无设置项。(支持iOS 15-17)
 Author: crctdd
-Name: Disable CarrierPoP
+Name: Disable CallPoP
 
 Package: com.crctdd.disablecarrierpop
 Version: 0.0.1
@@ -517,21 +501,21 @@ Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
 Author: crctdd
 Name: Disable CarrierPoP
 
-Package: com.crctdd.disablecutpop
+Package: com.crctdd.disablecarrierpop
 Version: 0.0.1
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 168
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.disablecutpop_0.0.1_iphoneos-arm64.deb
-Size: 4074
-MD5sum: c1403b9e1a1785c9de6c94d87b749b5e
-SHA1: 46e8669863563bf437e25d5e2752792c903f971c
-SHA256: 52cb325607a9eb788f7d43ae49a6d5ed46dc221c01df0c0fd2a338dfc00d1864
+Filename: ./debs/com.crctdd.disablecarrierpop_0.0.1_iphoneos-arm64.deb
+Size: 4370
+MD5sum: 016c7f8f0e0c9f15c32760cd6b5dd553
+SHA1: d985b9be650377187318c06b67a47c0c2bcf7771
+SHA256: 02347c242889589e36373862a8a7d16699b35c1d0f16ad4081f7fb93db328cbc
 Section: Tweaks
-Description: 设备互通粘贴时禁用弹窗，无设置项。(支持iOS 15-17)
+Description: 禁用运营商弹窗；无设置项。(支持iOS 15-17)
 Author: crctdd
-Name: Disable CutPoP
+Name: Disable CarrierPoP
 
 Package: com.crctdd.disablecutpop
 Version: 0.0.1
@@ -544,6 +528,22 @@ Size: 3284
 MD5sum: 058717c716637bfe2fa1f3f06df0996a
 SHA1: 4dbd0533d5d6aef8dad14e98559e132024724839
 SHA256: 8233155936c8762ee5c7fc1615bbed05639bcd799d3e3ac6486dfd9b5782bd4b
+Section: Tweaks
+Description: 设备互通粘贴时禁用弹窗，无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: Disable CutPoP
+
+Package: com.crctdd.disablecutpop
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.disablecutpop_0.0.1_iphoneos-arm64.deb
+Size: 4074
+MD5sum: c1403b9e1a1785c9de6c94d87b749b5e
+SHA1: 46e8669863563bf437e25d5e2752792c903f971c
+SHA256: 52cb325607a9eb788f7d43ae49a6d5ed46dc221c01df0c0fd2a338dfc00d1864
 Section: Tweaks
 Description: 设备互通粘贴时禁用弹窗，无设置项。(支持iOS 15-17)
 Author: crctdd
@@ -615,22 +615,6 @@ Name: Disable Dynamic Island
 
 Package: com.crctdd.disabledynamicisland
 Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 76
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.disabledynamicisland_0.0.3_iphoneos-arm64e.deb
-Size: 6786
-MD5sum: 4a58ceaec8a37d37c3387ebbbc2088e7
-SHA1: b856816fc7f532382aae02189e9a3a60010f8a2e
-SHA256: ba885aa25a3b3737283bb4d19d6ccdebc785830e2fa136ef702542e6e817fa73
-Section: Tweaks
-Description: 跟灵动岛说再见！禁用部分上岛行为；无设置项。(支持iOS 16-17 带灵动岛的设备)
-Author: crctdd
-Name: Disable Dynamic Island
-
-Package: com.crctdd.disabledynamicisland
-Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 172
@@ -640,6 +624,22 @@ Size: 8928
 MD5sum: 1183fefdaa00bc77f58c34467df874ee
 SHA1: e5b23a61baaa423dbeeb559531ffac696d6e4303
 SHA256: c6d475249cbb8c9e7e9574f8e242e84af9fa4efd3cf615f3ea6b7653ac567508
+Section: Tweaks
+Description: 跟灵动岛说再见！禁用部分上岛行为；无设置项。(支持iOS 16-17 带灵动岛的设备)
+Author: crctdd
+Name: Disable Dynamic Island
+
+Package: com.crctdd.disabledynamicisland
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 76
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.disabledynamicisland_0.0.3_iphoneos-arm64e.deb
+Size: 6786
+MD5sum: 4a58ceaec8a37d37c3387ebbbc2088e7
+SHA1: b856816fc7f532382aae02189e9a3a60010f8a2e
+SHA256: ba885aa25a3b3737283bb4d19d6ccdebc785830e2fa136ef702542e6e817fa73
 Section: Tweaks
 Description: 跟灵动岛说再见！禁用部分上岛行为；无设置项。(支持iOS 16-17 带灵动岛的设备)
 Author: crctdd
@@ -717,23 +717,6 @@ Name: GIFMake
 
 Package: com.crctdd.memtrim
 Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 820
-Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.memtrim_0.0.1_iphoneos-arm64.deb
-Size: 125212
-MD5sum: 741079637fad95c9c1d5da5dfc168007
-SHA1: bbc68b5a2bbb04c4936c955c369d4a0ac3790a10
-SHA256: 849486c6d27bdcf135faa9b075e4ac643251967a03e56ca059efc2b842b204c6
-Section: Tweaks
-Homepage: https://crctdd.github.io/repo/
-Description: 优化并释放部分运行内存。(支持iOS 15-17)
-Author: crctdd
-Name: MemTrim
-
-Package: com.crctdd.memtrim
-Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 388
@@ -743,6 +726,23 @@ Size: 71690
 MD5sum: aa977fb34390190349aa3ed93e1996ed
 SHA1: 6c22aca59417ab8c4796b20395bb49d4d8270cf2
 SHA256: 7f61fbd3f0188f85f4eb44159dae563da13376b9844ff3d770c7e298a4b0ba91
+Section: Tweaks
+Homepage: https://crctdd.github.io/repo/
+Description: 优化并释放部分运行内存。(支持iOS 15-17)
+Author: crctdd
+Name: MemTrim
+
+Package: com.crctdd.memtrim
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 820
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.memtrim_0.0.1_iphoneos-arm64.deb
+Size: 125212
+MD5sum: 741079637fad95c9c1d5da5dfc168007
+SHA1: bbc68b5a2bbb04c4936c955c369d4a0ac3790a10
+SHA256: 849486c6d27bdcf135faa9b075e4ac643251967a03e56ca059efc2b842b204c6
 Section: Tweaks
 Homepage: https://crctdd.github.io/repo/
 Description: 优化并释放部分运行内存。(支持iOS 15-17)
@@ -785,22 +785,6 @@ Name: MemTrim
 
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.1
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 204
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64.deb
-Size: 22252
-MD5sum: 5af40fee1bb76c3e83ec7d1f8e2756e5
-SHA1: abc82aecdecd8aee4dd01bcf0ed1455043b0d204
-SHA256: 54998ea016eb2dc491b9351609c2092ca1574d8a3ae8dcc736d3e8427deaca9f
-Section: Tweaks
-Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
-Author: crctdd
-Name: 系统相册视频进度条
-
-Package: com.crctdd.mobileslideshowhook
-Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 204
@@ -816,16 +800,16 @@ Author: crctdd
 Name: 系统相册视频进度条
 
 Package: com.crctdd.mobileslideshowhook
-Version: 0.0.2
-Architecture: iphoneos-arm64e
+Version: 0.0.1
+Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 204
 Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.2_iphoneos-arm64e.deb
-Size: 23104
-MD5sum: a684a13c1aecc6d00aed8c6e04aa82c3
-SHA1: 54fde2846cb34e0047b094efccfb1e0a3d42a13e
-SHA256: 0c2583b1cced19d55ce1d56322809709f13d451943b4c5040fbee85bdac797d3
+Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.1_iphoneos-arm64.deb
+Size: 22252
+MD5sum: 5af40fee1bb76c3e83ec7d1f8e2756e5
+SHA1: abc82aecdecd8aee4dd01bcf0ed1455043b0d204
+SHA256: 54998ea016eb2dc491b9351609c2092ca1574d8a3ae8dcc736d3e8427deaca9f
 Section: Tweaks
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
 Author: crctdd
@@ -842,6 +826,22 @@ Size: 23192
 MD5sum: 17f11d749755e683af8c975ca72649d5
 SHA1: 1d7f6d37b061907bf2172a90abfa6d2b47895fa6
 SHA256: 8b8e16256033bbf3e2f869dcc39bdcc9c6c20d8f3087c9d6aabe9ef835a5d1e1
+Section: Tweaks
+Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
+Author: crctdd
+Name: 系统相册视频进度条
+
+Package: com.crctdd.mobileslideshowhook
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.2_iphoneos-arm64e.deb
+Size: 23104
+MD5sum: a684a13c1aecc6d00aed8c6e04aa82c3
+SHA1: 54fde2846cb34e0047b094efccfb1e0a3d42a13e
+SHA256: 0c2583b1cced19d55ce1d56322809709f13d451943b4c5040fbee85bdac797d3
 Section: Tweaks
 Description: 为系统相册视频播放界面增加视频进度条 (支持iOS 15-17)
 Author: crctdd
@@ -913,22 +913,6 @@ Name: 系统相册视频进度条
 
 Package: com.crctdd.mobileslideshowhook
 Version: 0.0.5
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 240
-Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
-Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64.deb
-Size: 31942
-MD5sum: a4a2d353e1cd54c54f184791ee41010b
-SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
-SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
-Section: Tweaks
-Description: 系统相册增加视频进度条 (支持iOS 15-17)
-Author: crctdd
-Name: 系统相册视频进度条
-
-Package: com.crctdd.mobileslideshowhook
-Version: 0.0.5
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 240
@@ -943,26 +927,21 @@ Description: 系统相册增加视频进度条 (支持iOS 15-17)
 Author: crctdd
 Name: 系统相册视频进度条
 
-Package: com.crctdd.pyvideo
-Version: 0.0.3
-Architecture: iphoneos-arm64e
+Package: com.crctdd.mobileslideshowhook
+Version: 0.0.5
+Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 2968
-Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
-Filename: ./debs/com.crctdd.pyvideo_0.0.3_iphoneos-arm64e.deb
-Size: 1325546
-MD5sum: c6540ed560da922cd5580eceda9dd984
-SHA1: fc7cb7d25aab0e9986a4cfd9930ce20477b5bc3b
-SHA256: 8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32
+Installed-Size: 240
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.mobileslideshowhook_0.0.5_iphoneos-arm64.deb
+Size: 31942
+MD5sum: a4a2d353e1cd54c54f184791ee41010b
+SHA1: 10232b15eb7eb151db4edc00e68b21824f123e39
+SHA256: 667d5cbd95e85af20b743c3ef9d14f0d2db42f1b79734e9ce518d9cd76a16436
 Section: Tweaks
-Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
- \
- 长按Safari右下角菜单键 或者\
- ↓使用以下URL Scheme触发↓\
- \
- pyvideo://video-downloader
+Description: 系统相册增加视频进度条 (支持iOS 15-17)
 Author: crctdd
-Name: PyVideo
+Name: 系统相册视频进度条
 
 Package: com.crctdd.pyvideo
 Version: 0.0.3
@@ -975,6 +954,27 @@ Size: 2625268
 MD5sum: 12593f2e3677e838fb3c1c704d415e12
 SHA1: 518a9c7db9988c32c6ca5c51290184d9c747c56b
 SHA256: 113e592b56142a9b4fad6840c546973683af4d6321f5cb345c7c79f0b07526f4
+Section: Tweaks
+Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
+ \
+ 长按Safari右下角菜单键 或者\
+ ↓使用以下URL Scheme触发↓\
+ \
+ pyvideo://video-downloader
+Author: crctdd
+Name: PyVideo
+
+Package: com.crctdd.pyvideo
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 2968
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.libsandy (>= 1.1.6)
+Filename: ./debs/com.crctdd.pyvideo_0.0.3_iphoneos-arm64e.deb
+Size: 1325546
+MD5sum: c6540ed560da922cd5580eceda9dd984
+SHA1: fc7cb7d25aab0e9986a4cfd9930ce20477b5bc3b
+SHA256: 8f2c65c584cf8a5113e6b59676e5782e0b4e4745c4458c8cc017f1f907abfa32
 Section: Tweaks
 Description: 获取当前页面的视频并下载，仅Safari浏览器可用；无设置项。（支持iOS 15-17）\
  \
@@ -1083,22 +1083,6 @@ Name: ShortBar
 
 Package: com.crctdd.shorbar
 Version: 0.0.9
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 460
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64.deb
-Size: 60174
-MD5sum: de9e81217316c898a8c58ef4054e15c6
-SHA1: a91f23c00ab315a54a0e238ae0389639e758d4da
-SHA256: 62c9d9c17cde7620f3e985db41394f71eab712765ab53ba7576e9d47f0771411
-Section: Tweaks
-Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
-Author: crctdd
-Name: ShortBar
-
-Package: com.crctdd.shorbar
-Version: 0.0.9
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 460
@@ -1114,16 +1098,16 @@ Author: crctdd
 Name: ShortBar
 
 Package: com.crctdd.shorbar
-Version: 1.0.0
-Architecture: iphoneos-arm64e
+Version: 0.0.9
+Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 460
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.crctdd.shorbar_1.0.0_iphoneos-arm64e.deb
-Size: 60046
-MD5sum: 367482414172b3319da2dd4fac10ea97
-SHA1: de8812ddcb958c790e53458edc8531bfa6336ddb
-SHA256: 082ab776f55c41cd319c4d1b51f50bdf1ab94b55b6c820b9786773c14da03192
+Filename: ./debs/com.crctdd.shorbar_0.0.9_iphoneos-arm64.deb
+Size: 60174
+MD5sum: de9e81217316c898a8c58ef4054e15c6
+SHA1: a91f23c00ab315a54a0e238ae0389639e758d4da
+SHA256: 62c9d9c17cde7620f3e985db41394f71eab712765ab53ba7576e9d47f0771411
 Section: Tweaks
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Author: crctdd
@@ -1140,6 +1124,22 @@ Size: 59996
 MD5sum: d669c22f3e66188a05fe8a8ac138f97c
 SHA1: 28538c944d95f0c2c4d1fd583ed6b7cd72a544ab
 SHA256: 4584aca0f449a05763c8d06298c639d27950b27df24ff70f3b1133a639ec5bcf
+Section: Tweaks
+Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
+Author: crctdd
+Name: ShortBar
+
+Package: com.crctdd.shorbar
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 460
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.crctdd.shorbar_1.0.0_iphoneos-arm64e.deb
+Size: 60046
+MD5sum: 367482414172b3319da2dd4fac10ea97
+SHA1: de8812ddcb958c790e53458edc8531bfa6336ddb
+SHA256: 082ab776f55c41cd319c4d1b51f50bdf1ab94b55b6c820b9786773c14da03192
 Section: Tweaks
 Description: 让小白条缩短的轻量插件 (支持iOS 15-17)
 Author: crctdd
@@ -1211,22 +1211,6 @@ Name: ShortBar
 
 Package: com.crctdd.stayalivelite
 Version: 0.1.3
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 572
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
-Filename: ./debs/com.crctdd.stayalivelite_0.1.3_iphoneos-arm64.deb
-Size: 82256
-MD5sum: 817a09cf44b482fec4cf8e085eafda02
-SHA1: 2971d223b057976654d2d20f7191ba20f175dbc5
-SHA256: e78254cd0531d75dfcf378af0658649127e9ddd11f2713cf5a349bd080aca4ba
-Section: Tweaks
-Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.1.3
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 284
@@ -1242,18 +1226,18 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.1.7
+Version: 0.1.3
 Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 604
+Installed-Size: 572
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
-Filename: ./debs/com.crctdd.stayalivelite_0.1.7_iphoneos-arm64.deb
-Size: 88872
-MD5sum: 9212f96033b9e2f0ebc64ac2447029a2
-SHA1: 701850c95af1d25117bc0ce55a97ff9d9ce6e0fe
-SHA256: 5f278f089b9cf8d634fefd0085daddf05f9a3ad874deb1ab96d2c0d47d230a01
+Filename: ./debs/com.crctdd.stayalivelite_0.1.3_iphoneos-arm64.deb
+Size: 82256
+MD5sum: 817a09cf44b482fec4cf8e085eafda02
+SHA1: 2971d223b057976654d2d20f7191ba20f175dbc5
+SHA256: e78254cd0531d75dfcf378af0658649127e9ddd11f2713cf5a349bd080aca4ba
 Section: Tweaks
-Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Description: 为指定App开启守护后台，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
 Author: crctdd
 Name: StayAlive Lite
 
@@ -1268,6 +1252,22 @@ Size: 65768
 MD5sum: 1126ce908cc3590309b34629024b0fe4
 SHA1: b2e67d7a6c9ec15d8e33528e630bbd2361f82c9a
 SHA256: cf444ddebff1fd41f37702b439c57dd07ff1bbe5f8c4e73d140b1462ff784937
+Section: Tweaks
+Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.1.7
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 604
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader
+Filename: ./debs/com.crctdd.stayalivelite_0.1.7_iphoneos-arm64.deb
+Size: 88872
+MD5sum: 9212f96033b9e2f0ebc64ac2447029a2
+SHA1: 701850c95af1d25117bc0ce55a97ff9d9ce6e0fe
+SHA256: 5f278f089b9cf8d634fefd0085daddf05f9a3ad874deb1ab96d2c0d47d230a01
 Section: Tweaks
 Description: 为指定App开启守护后台，将任务角色注册为Inactive(非活跃)，并提供一直运行、定时运行、崩溃自动拉起、注销后自动拉起、Wi-Fi/充电/低电量条件控制等功能。同时支持通过桌面长按App图标快速开启/关闭，操作会直接同步到插件设置。已在15.6无根、16.3隐根、17.0隐根测试功能正常。
 Author: crctdd
@@ -1339,22 +1339,6 @@ Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
 Version: 0.2.3
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1008
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.2.3_iphoneos-arm64.deb
-Size: 110222
-MD5sum: bcf998b4903603016d2b2ecbf238f0b7
-SHA1: 1581cbcc6233310e3638f3b1d9e05adaa67393ea
-SHA256: ca0f43704bb7722e9de89998a707a26232aa828a1b0a7b3f9c7fca7fd5b8066d
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.3
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 496
@@ -1364,6 +1348,22 @@ Size: 80576
 MD5sum: 2b854a84bd4bb6a3e8d541ca8f799710
 SHA1: 81321f52c7d9eff37e8a5bf548c2c48c3e2e7c0d
 SHA256: 21f3547c93c84da57c911ee2c18005b799ac51724cf3b0c617994fef6147aace
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.2.3
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1008
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.2.3_iphoneos-arm64.deb
+Size: 110222
+MD5sum: bcf998b4903603016d2b2ecbf238f0b7
+SHA1: 1581cbcc6233310e3638f3b1d9e05adaa67393ea
+SHA256: ca0f43704bb7722e9de89998a707a26232aa828a1b0a7b3f9c7fca7fd5b8066d
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1403,22 +1403,6 @@ Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
 Version: 0.2.5
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 512
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.2.5_iphoneos-arm64e.deb
-Size: 84284
-MD5sum: b10c0aa94db08e23e852b3280475d78f
-SHA1: 2d10bfb949d67556b006e701a1b539b96b228b3d
-SHA256: b0a711999a4e5e37487f2e752588f37b60a1cbb83491aa03fb9f33ebc090a228
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.5
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 1040
@@ -1434,16 +1418,16 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.2.6
-Architecture: iphoneos-arm64
+Version: 0.2.5
+Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 1040
+Installed-Size: 512
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.2.6_iphoneos-arm64.deb
-Size: 121226
-MD5sum: f6123d6e7d6266e7c099a3fd7d9bdb8a
-SHA1: a69dda69ec8a18d6d391138636983d937fdd4fdd
-SHA256: 5230f65a678793081c19648a0f4f383a303522ebc9ab19c692a1e3308c759b9e
+Filename: ./debs/com.crctdd.stayalivelite_0.2.5_iphoneos-arm64e.deb
+Size: 84284
+MD5sum: b10c0aa94db08e23e852b3280475d78f
+SHA1: 2d10bfb949d67556b006e701a1b539b96b228b3d
+SHA256: b0a711999a4e5e37487f2e752588f37b60a1cbb83491aa03fb9f33ebc090a228
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1460,6 +1444,22 @@ Size: 87608
 MD5sum: e9f2c899fa3f0ca772d2c6eb737cf91c
 SHA1: 11ceffa591a1a2e48bb3857a607af4e4e54ecd22
 SHA256: 0e93f59c6e20b9127bb3ef2a5d59f01831f6ea787b69593c3c727c027ce02d6c
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.2.6
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1040
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.2.6_iphoneos-arm64.deb
+Size: 121226
+MD5sum: f6123d6e7d6266e7c099a3fd7d9bdb8a
+SHA1: a69dda69ec8a18d6d391138636983d937fdd4fdd
+SHA256: 5230f65a678793081c19648a0f4f383a303522ebc9ab19c692a1e3308c759b9e
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1499,22 +1499,6 @@ Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
 Version: 0.2.8
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 672
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.2.8_iphoneos-arm64e.deb
-Size: 104658
-MD5sum: 2b32a2bd8aaec623207147c78cd54a33
-SHA1: 1f13a5a7e55af4625b305811e92f6a505957ee9a
-SHA256: c51080e1e18678d8d84c381b7ab04affc3d437388dfe3bab22d7974d1fe0889e
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.2.8
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 1360
@@ -1524,6 +1508,22 @@ Size: 149266
 MD5sum: daedec1d44b509a1d72b4811dbe05105
 SHA1: 1dfc40c7fec0e0676b1294b4ad7d1c76c255f3ab
 SHA256: 35c42981ceaf4b5ce7e8c0d07328807329301d283754167b5d1da249df15814d
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.2.8
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 672
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.2.8_iphoneos-arm64e.deb
+Size: 104658
+MD5sum: 2b32a2bd8aaec623207147c78cd54a33
+SHA1: 1f13a5a7e55af4625b305811e92f6a505957ee9a
+SHA256: c51080e1e18678d8d84c381b7ab04affc3d437388dfe3bab22d7974d1fe0889e
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1723,22 +1723,6 @@ Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
 Version: 0.3.6
-Architecture: iphoneos-arm64
-Maintainer: crctdd
-Installed-Size: 1688
-Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.3.6_iphoneos-arm64.deb
-Size: 179658
-MD5sum: 66c7a0d0de7b84b291f78998904c3f72
-SHA1: ee35a07de6be050361139d0e74e43eb61011c8e3
-SHA256: a46a5c554ea525d44ab14a372612e7eacd6f3fea5a902aaec185c4d7dd8451dd
-Section: Tweaks
-Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
-Author: crctdd
-Name: StayAlive Lite
-
-Package: com.crctdd.stayalivelite
-Version: 0.3.6
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 840
@@ -1754,16 +1738,16 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.3.7
-Architecture: iphoneos-arm64e
+Version: 0.3.6
+Architecture: iphoneos-arm64
 Maintainer: crctdd
-Installed-Size: 948
+Installed-Size: 1688
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.3.7_iphoneos-arm64e.deb
-Size: 156524
-MD5sum: 95a8a9004a1c9389f4fc9bad8c6bdd1c
-SHA1: 81d90f2ab05d47354dba007c05eec36b630b5d49
-SHA256: f24255f93db3bd3232f2f6c97a1dbd2962d793901e8d3f12275c1c89df6b62f0
+Filename: ./debs/com.crctdd.stayalivelite_0.3.6_iphoneos-arm64.deb
+Size: 179658
+MD5sum: 66c7a0d0de7b84b291f78998904c3f72
+SHA1: ee35a07de6be050361139d0e74e43eb61011c8e3
+SHA256: a46a5c554ea525d44ab14a372612e7eacd6f3fea5a902aaec185c4d7dd8451dd
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1786,16 +1770,16 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.3.8
+Version: 0.3.7
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 948
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.3.8_iphoneos-arm64e.deb
-Size: 158064
-MD5sum: d606ce58e2f46236f6c65fb89ba6ff2d
-SHA1: 969435006553cbe67728a10fdb23111e0f17817d
-SHA256: 0f0499b0fa7e5f2caf0c31b17857225f792af17f5fbcd7f044a22f1c755e6f8f
+Filename: ./debs/com.crctdd.stayalivelite_0.3.7_iphoneos-arm64e.deb
+Size: 156524
+MD5sum: 95a8a9004a1c9389f4fc9bad8c6bdd1c
+SHA1: 81d90f2ab05d47354dba007c05eec36b630b5d49
+SHA256: f24255f93db3bd3232f2f6c97a1dbd2962d793901e8d3f12275c1c89df6b62f0
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1818,16 +1802,16 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.3.9
+Version: 0.3.8
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 984
+Installed-Size: 948
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.3.9_iphoneos-arm64e.deb
-Size: 160458
-MD5sum: 2569ca21ef1fb00ebc22cdfacbc60cdd
-SHA1: 7c4b2e4dbed3da9919b9ad78b10f847513fb829c
-SHA256: 8b415d196652bdef852da5f6b39f4f43d539a4cb93d906c8a5c2d03a8f0db736
+Filename: ./debs/com.crctdd.stayalivelite_0.3.8_iphoneos-arm64e.deb
+Size: 158064
+MD5sum: d606ce58e2f46236f6c65fb89ba6ff2d
+SHA1: 969435006553cbe67728a10fdb23111e0f17817d
+SHA256: 0f0499b0fa7e5f2caf0c31b17857225f792af17f5fbcd7f044a22f1c755e6f8f
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1850,16 +1834,16 @@ Author: crctdd
 Name: StayAlive Lite
 
 Package: com.crctdd.stayalivelite
-Version: 0.4.0
-Architecture: iphoneos-arm64
+Version: 0.3.9
+Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 1944
+Installed-Size: 984
 Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
-Filename: ./debs/com.crctdd.stayalivelite_0.4.0_iphoneos-arm64.deb
-Size: 239908
-MD5sum: f512beaebcd9ed88bca98b2459c61ef2
-SHA1: 1acac69fc1f0ccadcd93a55fe44920396352f9a1
-SHA256: ca55a795340ecdbde911e2be4e35abacb20f91d96408b72d1ec75e7eac84b7b1
+Filename: ./debs/com.crctdd.stayalivelite_0.3.9_iphoneos-arm64e.deb
+Size: 160458
+MD5sum: 2569ca21ef1fb00ebc22cdfacbc60cdd
+SHA1: 7c4b2e4dbed3da9919b9ad78b10f847513fb829c
+SHA256: 8b415d196652bdef852da5f6b39f4f43d539a4cb93d906c8a5c2d03a8f0db736
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1876,6 +1860,22 @@ Size: 162052
 MD5sum: 9917ecc2e7b82d01c0a7a2b16b38c10b
 SHA1: 1cd7634986c1ef854283d1cde276cd1addf1dfde
 SHA256: 7176bff7e391fe048c4ba218afa4237f1965561117e1e9f2718e3d0bf25ebd71
+Section: Tweaks
+Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
+Author: crctdd
+Name: StayAlive Lite
+
+Package: com.crctdd.stayalivelite
+Version: 0.4.0
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 1944
+Depends: firmware (>= 15.0), firmware (<< 17.4), preferenceloader, com.opa334.ccsupport
+Filename: ./debs/com.crctdd.stayalivelite_0.4.0_iphoneos-arm64.deb
+Size: 239908
+MD5sum: f512beaebcd9ed88bca98b2459c61ef2
+SHA1: 1acac69fc1f0ccadcd93a55fe44920396352f9a1
+SHA256: ca55a795340ecdbde911e2be4e35abacb20f91d96408b72d1ec75e7eac84b7b1
 Section: Tweaks
 Description: 轻量后台守护插件，支持多种运行方式与任务角色性能控制，让app后台运行更稳定。(支持ios15-17)
 Author: crctdd
@@ -1915,22 +1915,6 @@ Name: StayAlive Lite
 
 Package: com.crctdd.surgeactive
 Version: 0.0.3
-Architecture: iphoneos-arm64e
-Maintainer: crctdd
-Installed-Size: 108
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.crctdd.surgeactive_0.0.3_iphoneos-arm64e.deb
-Size: 11410
-MD5sum: e021feac18dec356382bad74fb7ac43d
-SHA1: 9f126f478ee9c346f3ab7b96672c92aa326296b1
-SHA256: f5d25b1506fce0b4894665dc17206ee3407c108aef8ef08a3b32e85f475a6ee9
-Section: Tweaks
-Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
-Author: crctdd
-Name: SurgeActive
-
-Package: com.crctdd.surgeactive
-Version: 0.0.3
 Architecture: iphoneos-arm64
 Maintainer: crctdd
 Installed-Size: 236
@@ -1946,16 +1930,16 @@ Author: crctdd
 Name: SurgeActive
 
 Package: com.crctdd.surgeactive
-Version: 0.0.5
-Architecture: iphoneos-arm64
+Version: 0.0.3
+Architecture: iphoneos-arm64e
 Maintainer: crctdd
-Installed-Size: 236
+Installed-Size: 108
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: ./debs/com.crctdd.surgeactive_0.0.5_iphoneos-arm64.deb
-Size: 15996
-MD5sum: 369b3bde8cd1974b4e14448d5eb7bba3
-SHA1: bd1003e188b70e799f77fdd7620fb9de3bec2a12
-SHA256: 55895ffa2cf9d44dad80f74100191bff22ed35b51b51d3b4e657bdda3b985629
+Filename: ./debs/com.crctdd.surgeactive_0.0.3_iphoneos-arm64e.deb
+Size: 11410
+MD5sum: e021feac18dec356382bad74fb7ac43d
+SHA1: 9f126f478ee9c346f3ab7b96672c92aa326296b1
+SHA256: f5d25b1506fce0b4894665dc17206ee3407c108aef8ef08a3b32e85f475a6ee9
 Section: Tweaks
 Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Author: crctdd
@@ -1977,17 +1961,33 @@ Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
 Author: crctdd
 Name: SurgeActive
 
+Package: com.crctdd.surgeactive
+Version: 0.0.5
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 236
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: ./debs/com.crctdd.surgeactive_0.0.5_iphoneos-arm64.deb
+Size: 15996
+MD5sum: 369b3bde8cd1974b4e14448d5eb7bba3
+SHA1: bd1003e188b70e799f77fdd7620fb9de3bec2a12
+SHA256: 55895ffa2cf9d44dad80f74100191bff22ed35b51b51d3b4e657bdda3b985629
+Section: Tweaks
+Description: 锁屏时保持 Surge-iOS-NE 的活跃性。(支持iOS 15-17)
+Author: crctdd
+Name: SurgeActive
+
 Package: com.crctdd.surgectl
 Version: 0.0.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: RrrankkK
 Installed-Size: 720
 Depends: firmware (>= 14.0), com.opa334.ccsupport
-Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64e.deb
-Size: 20692
-MD5sum: 06a2cfeb814ccd8d78a3433a167084bb
-SHA1: 6989720a2fdffc95cc592543211c4b705178c2da
-SHA256: 11dd236f11288208a9c25c457dd7a2dbf0d52c1d448b8fbcb27eb91da4f39ee9
+Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm.deb
+Size: 22248
+MD5sum: e1323917385c4aeb6587cab50c49fdd0
+SHA1: 18f70c943aab2ee5a9286927ec6f96967d9bae87
+SHA256: 16353c4389a37abade22e66e7423118954873891585e67102489b46d2568802c
 Section: Utilities
 Priority: optional
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -2013,15 +2013,15 @@ Name: SurgeCTL
 
 Package: com.crctdd.surgectl
 Version: 0.0.1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: RrrankkK
 Installed-Size: 720
 Depends: firmware (>= 14.0), com.opa334.ccsupport
-Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm.deb
-Size: 22248
-MD5sum: e1323917385c4aeb6587cab50c49fdd0
-SHA1: 18f70c943aab2ee5a9286927ec6f96967d9bae87
-SHA256: 16353c4389a37abade22e66e7423118954873891585e67102489b46d2568802c
+Filename: ./debs/com.crctdd.surgectl_0.0.1_iphoneos-arm64e.deb
+Size: 20692
+MD5sum: 06a2cfeb814ccd8d78a3433a167084bb
+SHA1: 6989720a2fdffc95cc592543211c4b705178c2da
+SHA256: 11dd236f11288208a9c25c457dd7a2dbf0d52c1d448b8fbcb27eb91da4f39ee9
 Section: Utilities
 Priority: optional
 Description: 终端切换Surge流量模式并附带控制中心组件。终端使用: surgectl [direct|rule|proxy|status]。控制中心: 在设置中添加对应按钮。
@@ -2158,22 +2158,6 @@ Name: Fiona
 
 Package: com.doimty.fiona
 Version: 0.3
-Architecture: iphoneos-arm64e
-Maintainer: doimty
-Installed-Size: 304
-Depends: firmware (>= 15.0)
-Filename: ./debs/com.doimty.fiona_0.3_iphoneos-arm64e.deb
-Size: 4908
-MD5sum: 35545bdc292d9c982cccf6c21ecfa912
-SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
-SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
-Section: Tweaks
-Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
-Author: doimty
-Name: Fiona
-
-Package: com.doimty.fiona
-Version: 0.3
 Architecture: iphoneos-arm64
 Maintainer: doimty
 Installed-Size: 304
@@ -2183,6 +2167,22 @@ Size: 4962
 MD5sum: eebc8e660c42510908751004ebbaab3f
 SHA1: 260b67696805c3d92215bd597fa1ac6d0ba4c8b5
 SHA256: 6c99bc146296e388299cefc65152df439151176f36d8e130303e8c3c72396af2
+Section: Tweaks
+Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
+Author: doimty
+Name: Fiona
+
+Package: com.doimty.fiona
+Version: 0.3
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 304
+Depends: firmware (>= 15.0)
+Filename: ./debs/com.doimty.fiona_0.3_iphoneos-arm64e.deb
+Size: 4908
+MD5sum: 35545bdc292d9c982cccf6c21ecfa912
+SHA1: c7859ec8d79d530d538a92d6afd216c8a5fe96a2
+SHA256: b280dbd7d0d521cc24d3c3a083f6f0fac71cf6d894534ae269fe0136c14e932c
 Section: Tweaks
 Description: 锁屏时保持 WiFi 连接；热点无客户端时不自动关闭。无开关，安装即生效；
 Author: doimty
@@ -2207,22 +2207,6 @@ Name: Fix Repair System Power
 
 Package: com.doimty.nrmanager
 Version: 1.7.5
-Architecture: iphoneos-arm64
-Maintainer: doimty
-Installed-Size: 1720
-Depends: mobilesubstrate, com.opa334.ccsupport
-Filename: ./debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64.deb
-Size: 258806
-MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
-SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
-SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
-Section: Control Center (Modules)
-Description: Select NR bands and view live serving status in Control Center
-Author: doimty
-Name: NR Manager
-
-Package: com.doimty.nrmanager
-Version: 1.7.5
 Architecture: iphoneos-arm64e
 Maintainer: doimty
 Installed-Size: 1688
@@ -2232,6 +2216,22 @@ Size: 274710
 MD5sum: 617b20edf8006a62252444fa407bdd5a
 SHA1: 06cada6410345bbf2fb6658afe4c8d2399eca816
 SHA256: 44ef9c90d0230552eea222527348292e51ed2fc23f1119bcfbd58f672e919289
+Section: Control Center (Modules)
+Description: Select NR bands and view live serving status in Control Center
+Author: doimty
+Name: NR Manager
+
+Package: com.doimty.nrmanager
+Version: 1.7.5
+Architecture: iphoneos-arm64
+Maintainer: doimty
+Installed-Size: 1720
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: ./debs/com.doimty.nrmanager_1.7.5_iphoneos-arm64.deb
+Size: 258806
+MD5sum: 453d3bb503e9b6fb123c57f7ad49d943
+SHA1: 5687e5c610329e86989a260956f09f3b96ea3cc2
+SHA256: 9327be9c33c4400a224537569fa632bd82ee42d412b89fbe41bc51b2b80455bf
 Section: Control Center (Modules)
 Description: Select NR bands and view live serving status in Control Center
 Author: doimty
@@ -2421,15 +2421,15 @@ Name: 乌贼手势 iOS 17 补丁
 
 Package: com.iosdump.memorycontrol
 Version: 1.3
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm64e
 Maintainer: iosdump
-Installed-Size: 780
+Installed-Size: 764
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
-Size: 91722
-MD5sum: 878546171bc837a525a725b2f7517a6e
-SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
-SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
+Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64e.deb
+Size: 90378
+MD5sum: 3ab1a52ff1aec2b32642d32097f120ec
+SHA1: 16fe4dcf00d0db90beb81fd77c5f254b3c2a5056
+SHA256: c3f4dc8efc4a5a7f789fcb69d35efb97c1cb51154f213881fc11328691acec65
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
@@ -2453,35 +2453,19 @@ Name: MemoryControlX
 
 Package: com.iosdump.memorycontrol
 Version: 1.3
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: iosdump
-Installed-Size: 764
+Installed-Size: 780
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64e.deb
-Size: 90378
-MD5sum: 3ab1a52ff1aec2b32642d32097f120ec
-SHA1: 16fe4dcf00d0db90beb81fd77c5f254b3c2a5056
-SHA256: c3f4dc8efc4a5a7f789fcb69d35efb97c1cb51154f213881fc11328691acec65
+Filename: ./debs/com.iosdump.memorycontrol_1.3_iphoneos-arm64.deb
+Size: 91722
+MD5sum: 878546171bc837a525a725b2f7517a6e
+SHA1: f3aaaa2c42ba72249a295cbb9d5a154d5455f5a8
+SHA256: db8956dc922f5bd1b7eefdb7e30a7969daff9abb6a4780e6cb62ca9dd2f1ffd4
 Section: Tweaks
 Description: iOS 14-17 进程内存与优先级调整
 Author: iosdump
 Name: MemoryControlX
-
-Package: com.iosdump.screenrecordnostatusbar
-Version: 0.1
-Architecture: iphoneos-arm
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm.deb
-Size: 5532
-MD5sum: 6d0f9ced8efac5026efac4fc722e3230
-SHA1: ea300272b560654d5aad4e4bc1dc4f6b54f0dc77
-SHA256: a7b3f931d6e99562abae93acfdf16b12811ce01f654a5cf9e39f091984ee7cae
-Section: Tweaks
-Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
-Author: iosdump
-Name: ScreenRecordNoStatusBar
 
 Package: com.iosdump.screenrecordnostatusbar
 Version: 0.1
@@ -2494,6 +2478,22 @@ Size: 5608
 MD5sum: a025750a9fb7eae75a8bebdc735b8fc2
 SHA1: 27a2d1cff9f51f7d2261453bd2e43e433a4e0986
 SHA256: f0495fa6fdfae5b21e8e4cbe6b52853a0dd2b0bae2901d5d1ffded40c9f4e70b
+Section: Tweaks
+Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
+Author: iosdump
+Name: ScreenRecordNoStatusBar
+
+Package: com.iosdump.screenrecordnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenrecordnostatusbar_0.1_iphoneos-arm.deb
+Size: 5532
+MD5sum: 6d0f9ced8efac5026efac4fc722e3230
+SHA1: ea300272b560654d5aad4e4bc1dc4f6b54f0dc77
+SHA256: a7b3f931d6e99562abae93acfdf16b12811ce01f654a5cf9e39f091984ee7cae
 Section: Tweaks
 Description: iOS 14-17 录屏时全程隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
@@ -2517,22 +2517,6 @@ Name: ScreenRecordNoStatusBar
 
 Package: com.iosdump.screenshotnostatusbar
 Version: 0.1
-Architecture: iphoneos-arm64
-Maintainer: iosdump
-Installed-Size: 168
-Depends: mobilesubstrate
-Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
-Size: 5176
-MD5sum: 9c9dcf47918497fe2dd5a850a1e1b4bf
-SHA1: 371b3c0b230789d8f7801d9a9daf0824844199fc
-SHA256: 25115e1544a390b2f85f7db02e43c5f12d38901c9418dde52f2665c1664b9989
-Section: Tweaks
-Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
-Author: iosdump
-Name: ScreenshotNoStatusBar
-
-Package: com.iosdump.screenshotnostatusbar
-Version: 0.1
 Architecture: iphoneos-arm
 Maintainer: iosdump
 Installed-Size: 168
@@ -2542,6 +2526,22 @@ Size: 5092
 MD5sum: a0ce5d902d21a6082448f2ab37dc2d0f
 SHA1: ab45da7bedd532ab5ef2e7b059974df396846c48
 SHA256: f19bcd741486d02c0462198eedd42a4f9aac353e4368ac4938df08d9ab74ba97
+Section: Tweaks
+Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
+Author: iosdump
+Name: ScreenshotNoStatusBar
+
+Package: com.iosdump.screenshotnostatusbar
+Version: 0.1
+Architecture: iphoneos-arm64
+Maintainer: iosdump
+Installed-Size: 168
+Depends: mobilesubstrate
+Filename: ./debs/com.iosdump.screenshotnostatusbar_0.1_iphoneos-arm64.deb
+Size: 5176
+MD5sum: 9c9dcf47918497fe2dd5a850a1e1b4bf
+SHA1: 371b3c0b230789d8f7801d9a9daf0824844199fc
+SHA256: 25115e1544a390b2f85f7db02e43c5f12d38901c9418dde52f2665c1664b9989
 Section: Tweaks
 Description: iOS 14-17 截图时隐藏状态栏，无设置项。(防止某些人盯着状态栏猜用户)
 Author: iosdump
@@ -2682,19 +2682,19 @@ Name: 巨魔R
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64e
 Maintainer: opa334
-Installed-Size: 592
+Installed-Size: 556
 Depends: ldid
-Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm.deb
-Size: 213316
-MD5sum: 1a8f866aa0c989683cb37810ff4699d1
-SHA1: 399c181fc020f7bc55d6da0b008ef9842f9e6450
-SHA256: 15901a97f599bf38f4e919ec782f63b66d0a3d87cccecf04184c62ea70578aba
+Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
+Size: 211724
+MD5sum: c5aa97e3524b8383ac9aba09e88fc488
+SHA1: 5b42782e3bee9b9c88f229bb970c0203dbfddc45
+SHA256: c4559fbaf83ab3ba2c941f522c7d88a5ac8aa7606c6083166d3ae5424ffa5d03
 Section: Applications
-Description: TrollStore for jailbroken iOS
+Description: TrollStore for RootHide jailbroken iOS
 Author: opa334
-Name: TrollStore Lite
+Name: TrollStore Lite (RootHide)
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1
@@ -2714,19 +2714,19 @@ Name: TrollStore Lite
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm
 Maintainer: opa334
-Installed-Size: 556
+Installed-Size: 592
 Depends: ldid
-Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
-Size: 211724
-MD5sum: c5aa97e3524b8383ac9aba09e88fc488
-SHA1: 5b42782e3bee9b9c88f229bb970c0203dbfddc45
-SHA256: c4559fbaf83ab3ba2c941f522c7d88a5ac8aa7606c6083166d3ae5424ffa5d03
+Filename: ./debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm.deb
+Size: 213316
+MD5sum: 1a8f866aa0c989683cb37810ff4699d1
+SHA1: 399c181fc020f7bc55d6da0b008ef9842f9e6450
+SHA256: 15901a97f599bf38f4e919ec782f63b66d0a3d87cccecf04184c62ea70578aba
 Section: Applications
-Description: TrollStore for RootHide jailbroken iOS
+Description: TrollStore for jailbroken iOS
 Author: opa334
-Name: TrollStore Lite (RootHide)
+Name: TrollStore Lite
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-260903
@@ -2762,22 +2762,6 @@ Name: TrollStore Lite
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-260910
-Architecture: iphoneos-arm64e
-Maintainer: opa334
-Installed-Size: 8140
-Depends: ldid
-Filename: ./debs/com.opa334.trollstorelite_2.1.1-260910_iphoneos-arm64e.deb
-Size: 2217496
-MD5sum: b2f0a42ab22cac53505875c11768f204
-SHA1: 5f835e740f493ad2596dc68219a7e97491363a8b
-SHA256: 0ffd035f36ce6bbc087161b1c79890e68553d040e6fbf7dc738d18604fb662e1
-Section: Applications
-Description: TrollStore for RootHide jailbroken iOS (iosdump魔改版)
-Author: opa334
-Name: TrollStore Lite (RootHide)
-
-Package: com.opa334.trollstorelite
-Version: 2.1.1-260910
 Architecture: iphoneos-arm64
 Maintainer: opa334
 Installed-Size: 8140
@@ -2793,19 +2777,20 @@ Author: opa334
 Name: TrollStore Lite
 
 Package: com.opa334.trollstorelite
-Version: 2.1.1-261003
-Architecture: iphoneos-arm64
+Version: 2.1.1-260910
+Architecture: iphoneos-arm64e
 Maintainer: opa334
-Installed-Size: 11424
-Filename: ./debs/com.opa334.trollstorelite_2.1.1-261003_iphoneos-arm64.deb
-Size: 3682784
-MD5sum: 8f10f8c0fc4254a5098a91ba4ccb1c2c
-SHA1: ac038e91d2e4844f08e7cf9049efab3962bed40b
-SHA256: b74a246625730e6f30aa1720dd5906c664798617b05e76df050de1aa6901299f
+Installed-Size: 8140
+Depends: ldid
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-260910_iphoneos-arm64e.deb
+Size: 2217496
+MD5sum: b2f0a42ab22cac53505875c11768f204
+SHA1: 5f835e740f493ad2596dc68219a7e97491363a8b
+SHA256: 0ffd035f36ce6bbc087161b1c79890e68553d040e6fbf7dc738d18604fb662e1
 Section: Applications
-Description: A modified TrollStore by iosdump for jailbroken iOS
-Author: opa334&iosdump
-Name: TrollStore Lite
+Description: TrollStore for RootHide jailbroken iOS (iosdump魔改版)
+Author: opa334
+Name: TrollStore Lite (RootHide)
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-261003
@@ -2821,6 +2806,21 @@ Section: Applications
 Description: A modified TrollStore by iosdump for jailbroken iOS
 Author: opa334&iosdump
 Name: TrollStore Lite (RootHide)
+
+Package: com.opa334.trollstorelite
+Version: 2.1.1-261003
+Architecture: iphoneos-arm64
+Maintainer: opa334
+Installed-Size: 11424
+Filename: ./debs/com.opa334.trollstorelite_2.1.1-261003_iphoneos-arm64.deb
+Size: 3682784
+MD5sum: 8f10f8c0fc4254a5098a91ba4ccb1c2c
+SHA1: ac038e91d2e4844f08e7cf9049efab3962bed40b
+SHA256: b74a246625730e6f30aa1720dd5906c664798617b05e76df050de1aa6901299f
+Section: Applications
+Description: A modified TrollStore by iosdump for jailbroken iOS
+Author: opa334&iosdump
+Name: TrollStore Lite
 
 Package: com.opa334.trollstorelite
 Version: 2.1.1-261004
@@ -2872,24 +2872,6 @@ Support: https://github.com/roothide/RootHideManagerApp
 
 Package: com.sini921.zoomanimation
 Version: 0.0.1-13
-Architecture: iphoneos-arm64
-Maintainer: SINI
-Installed-Size: 472
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/com.sini921.zoomanimation_0.0.1-13_iphoneos-arm64.deb
-Size: 59272
-MD5sum: 1ad66a86651d725b5ef70165af03e49f
-SHA1: 69522aee0fcf15189ec174027b94dd5b051e2a40
-SHA256: 20ca192ecdd0e3983332e0735dfdc14fcbb86488b9a92a0f033b5495d92b8dfc
-Section: 越狱插件
-Description: 桌面动画，可选动画样式，调节动画幅度。
-Author: SINI
-Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
-Name: ZoomAnimation(rootless)
-Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
-
-Package: com.sini921.zoomanimation
-Version: 0.0.1-13
 Architecture: iphoneos-arm64e
 Maintainer: SINI
 Installed-Size: 472
@@ -2904,6 +2886,24 @@ Description: 桌面动画，可选动画样式，调节动画幅度。
 Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
 Name: ZoomAnimation(roothide)
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+
+Package: com.sini921.zoomanimation
+Version: 0.0.1-13
+Architecture: iphoneos-arm64
+Maintainer: SINI
+Installed-Size: 472
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.sini921.zoomanimation_0.0.1-13_iphoneos-arm64.deb
+Size: 59272
+MD5sum: 1ad66a86651d725b5ef70165af03e49f
+SHA1: 69522aee0fcf15189ec174027b94dd5b051e2a40
+SHA256: 20ca192ecdd0e3983332e0735dfdc14fcbb86488b9a92a0f033b5495d92b8dfc
+Section: 越狱插件
+Description: 桌面动画，可选动画样式，调节动画幅度。
+Author: SINI
+Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
+Name: ZoomAnimation(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
 
 Package: com.udevs.vedette
@@ -3036,28 +3036,6 @@ Name: Frida
 
 Package: ws.hbang.newterm3
 Version: 3.0~beta1
-Architecture: iphoneos-arm64
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 14899
-Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
-Conflicts: ws.hbang.newterm, ws.hbang.newterm2
-Replaces: ws.hbang.newterm, ws.hbang.newterm2
-Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
-Size: 3836904
-MD5sum: fed66db963cb17131b239dc6deb7058c
-SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
-SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
-Section: Terminal Support
-Description: Powerful terminal app for iOS
-Tag: compatible_min::ios14.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm-beta
-Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Name: NewTerm 3 Beta
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.newterm3
-Version: 3.0~beta1
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
 Installed-Size: 14891
@@ -3069,6 +3047,28 @@ Size: 3833846
 MD5sum: adc326ee5d441247dc761046930f4c82
 SHA1: df6f8413fb57223021ba387e10f65b72cd842257
 SHA256: ca11f5cce4b152d5917d6db1b23ad3ba52bf8f91ec300738e0860415c9809f1b
+Section: Terminal Support
+Description: Powerful terminal app for iOS
+Tag: compatible_min::ios14.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/newterm-beta
+Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
+Name: NewTerm 3 Beta
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.newterm3
+Version: 3.0~beta1
+Architecture: iphoneos-arm64
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 14899
+Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
+Conflicts: ws.hbang.newterm, ws.hbang.newterm2
+Replaces: ws.hbang.newterm, ws.hbang.newterm2
+Filename: ./debs/ws.hbang.newterm3_3.0~beta1_iphoneos-arm64.deb
+Size: 3836904
+MD5sum: fed66db963cb17131b239dc6deb7058c
+SHA1: 4c9327fb9cd3ccdade8247bab90bcf12338b6be2
+SHA256: cbd965fbdc25634e4e447ba4609598a67a0f354a63fce2dbf9e0dce99042b055
 Section: Terminal Support
 Description: Powerful terminal app for iOS
 Tag: compatible_min::ios14.0
