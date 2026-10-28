@@ -355,6 +355,40 @@ Description: 下拉桌面图标弹出多开应用容器，无设置项。(支持
 Author: crctdd
 Name: Crane Drop Down
 
+Package: com.crctdd.dasx
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: cn.zqbb.stopautolaunchapps
+Filename: ./debs/com.crctdd.dasx_0.0.1_iphoneos-arm64.deb
+Size: 4324
+MD5sum: a79f024402670e2c6a93bb152ef19bcb
+SHA1: dbab975c9c7cf4a08c972a413a9d8d79f7c83bee
+SHA256: df8c1c1d0c3808bd38e232d9c6a0d7dd2ccdb90a8306eac6954d5267901ab268
+Section: Tweaks
+Description: 禁用未使用的APP在后台预热；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: DasX
+
+Package: com.crctdd.dasx
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: cn.zqbb.stopautolaunchapps
+Filename: ./debs/com.crctdd.dasx_0.0.1_iphoneos-arm64e.deb
+Size: 3478
+MD5sum: c3864c5fe6a39b88b9a674aad0a83f82
+SHA1: d530a2a69ed4e81b4d4e363a19e723e279e2c026
+SHA256: 13b8b8ebef763b98cc3a88c700c9d5fbf39cdf3383448ae53682bf96812a9f69
+Section: Tweaks
+Description: 禁用未使用的APP在后台预热；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: DasX
+
 Package: com.crctdd.deleterecords
 Version: 0.0.1
 Architecture: iphoneos-arm64e
