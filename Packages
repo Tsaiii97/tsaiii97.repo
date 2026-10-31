@@ -423,6 +423,40 @@ Description: 禁用未使用的APP在后台预热；无设置项。(支持iOS 15
 Author: crctdd
 Name: DasX
 
+Package: com.crctdd.dasx
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: cn.zqbb.stopautolaunchapps
+Filename: ./debs/com.crctdd.dasx_0.0.3_iphoneos-arm64.deb
+Size: 6754
+MD5sum: 8ccfbd53f9bce04e885121d2c67f625b
+SHA1: ddc627b9916632397a8eb33eb0f2ca02cd4130ce
+SHA256: 9d82ae5171142e98c7bdbd7899ddefd160ce9410a57851aaf071386e4f899b44
+Section: Tweaks
+Description: 禁用未使用的APP在后台预热；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: DasX
+
+Package: com.crctdd.dasx
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 88
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Conflicts: cn.zqbb.stopautolaunchapps
+Filename: ./debs/com.crctdd.dasx_0.0.3_iphoneos-arm64e.deb
+Size: 5452
+MD5sum: d11a7a91a8073490dcaa6f52ad6ff9c5
+SHA1: 85418abb21d96844351e07da1d22b5f7adb717a6
+SHA256: 53ed3f6eef0d2cfa868293d9f036452a6be103f0f285d01d0dac03c37e91f5ca
+Section: Tweaks
+Description: 禁用未使用的APP在后台预热；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: DasX
+
 Package: com.crctdd.deleterecords
 Version: 0.0.1
 Architecture: iphoneos-arm64e
