@@ -1117,6 +1117,38 @@ Description: 当SpringBoard的Phys占用阈值超过一定数值，自动轻量�
 Author: crctdd
 Name: SBTrim
 
+Package: com.crctdd.sharingx
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.1_iphoneos-arm64e.deb
+Size: 10754
+MD5sum: 664e6a514165eeec5d55f24eb491d621
+SHA1: a1dac32f126b0ee10616855a4da4c5cb002618b0
+SHA256: efb989907284d5ff2e719e4bdc395fef2716fe80eb0333b379ce5ecbc357f659
+Section: Tweaks
+Description: 被动隔空投送前重启sharingd进程 (冷却180秒)，iOS17接收投送会弹出系统分享面板(照片/视频除外)，不进行直接跳转。(支持iOS 15-17)
+Author: crctdd
+Name: SharingX
+
+Package: com.crctdd.sharingx
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.1_iphoneos-arm64.deb
+Size: 14048
+MD5sum: 85b314b7de221cc764bd8e2632fd407a
+SHA1: 336b8dc89c316de16ab9cf79fa4520df3402ce77
+SHA256: d540d3d81b45716bee808d625757527e206246a566137178a0381e5821cfca59
+Section: Tweaks
+Description: 被动隔空投送前重启sharingd进程 (冷却180秒)，iOS17接收投送会弹出系统分享面板(照片/视频除外)，不进行直接跳转。(支持iOS 15-17)
+Author: crctdd
+Name: SharingX
+
 Package: com.crctdd.shorbar
 Version: 0.0.6
 Architecture: iphoneos-arm64
