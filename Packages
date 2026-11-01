@@ -147,6 +147,38 @@ Description: 自动复制短信、系统邮件、部分主流第三方邮件的�
 Author: crctdd
 Name: Auto Copy Verify
 
+Package: com.crctdd.bluetoothactive
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.bluetoothactive_0.0.1_iphoneos-arm64e.deb
+Size: 7204
+MD5sum: c3d3e90f35b8637624a3967894c16bee
+SHA1: b0573290662dea33970b382593b47ed4652fda03
+SHA256: 94d1f8041085ef0178b6217086a8b1d3540397bfd3b0b0b5befbddab0b28af81
+Section: Tweaks
+Description: 增强蓝牙活跃性；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: BluetoothActive
+
+Package: com.crctdd.bluetoothactive
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.bluetoothactive_0.0.1_iphoneos-arm64.deb
+Size: 9132
+MD5sum: fc26572722744d172340c198ae216987
+SHA1: aed29c7af9887710f572cb7c01dd59842d8af9d1
+SHA256: f86ca11a74d999a09d48f1aac9d00880ce9e0ec534ad2c4e9d3b85a8cc86b545
+Section: Tweaks
+Description: 增强蓝牙活跃性；无设置项。(支持iOS 15-17)
+Author: crctdd
+Name: BluetoothActive
+
 Package: com.crctdd.choicy-patch
 Version: 0.0.2
 Architecture: iphoneos-arm64e
