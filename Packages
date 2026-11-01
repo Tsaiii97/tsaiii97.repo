@@ -3078,60 +3078,6 @@ Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
 Name: ZoomAnimation(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
 
-Package: com.udevs.vedette
-Version: 1.1.10
-Architecture: iphoneos-arm64e
-Maintainer: udevs
-Installed-Size: 576
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: ./debs/com.udevs.vedette_1.1.10_iphoneos-arm64e.deb
-Size: 82818
-MD5sum: 886b60709339b016331fb53216cf6fba
-SHA1: c1023a40c30e4737035b284ab1b2f31a3d0e3455
-SHA256: d106aa921a09891fc9a322a78924e20d6020b9ffc1d71e979d1c7de83a3fdb48
-Section: Tweaks
-Description: Monitor CPU hogging processes
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Name: Vedette
-
-Package: com.udevs.vedette
-Version: 1.1.10-1+ui2
-Architecture: iphoneos-arm64e
-Maintainer: udevs
-Installed-Size: 624
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: ./debs/com.udevs.vedette_1.1.10-1+ui2_iphoneos-arm64e.deb
-Size: 94906
-MD5sum: 54ad28f0d93db1333183886dc1b2a67a
-SHA1: ace92158c0d8d457fe711b9383ba3235308fd500
-SHA256: b76a8a1011d66df9eb5ee2722db29715250bf6e97bdbcaf5dd166c4d64954b1e
-Section: Tweaks
-Description: Monitor CPU hogging processes
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Name: Vedette
-
-Package: com.udevs.vedette
-Version: 1.1.5
-Architecture: iphoneos-arm64e
-Maintainer: udevs
-Installed-Size: 504
-Depends: roothide, preferenceloader, mobilesubstrate (>= 0.9.5000), com.opa334.altlist
-Filename: ./debs/com.udevs.vedette_1.1.5_iphoneos-arm64e.deb
-Size: 70092
-MD5sum: a68caab6f513cfdfec9f05c274cb2598
-SHA1: 2f87d760e4c5345c27d70f07cb06e9b47de952fc
-SHA256: d621c9d3ab1772cbcc43b06c2a4fdafa18b769abca1e5d53b39c8bedc6b1f694
-Section: Tweaks
-Description: Monitor CPU hogging processes
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vedette
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vedette/icon/icon.png
-Name: Vedette
-
 Package: ellekit
 Version: 1.2
 Architecture: iphoneos-arm64e
