@@ -1149,6 +1149,70 @@ Description: 被动隔空投送前重启sharingd进程 (冷却180秒)，iOS17接
 Author: crctdd
 Name: SharingX
 
+Package: com.crctdd.sharingx
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.2_iphoneos-arm64e.deb
+Size: 7980
+MD5sum: 471eabd104971afba358211865b0517b
+SHA1: a54d6dccdea7b8e7550e5be46fc1bbabea05f550
+SHA256: 588620e46b9a2b44d8dbf2d778a164238c6c951987625507edc26b37db3b2214
+Section: Tweaks
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Author: crctdd
+Name: SharingX
+
+Package: com.crctdd.sharingx
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.2_iphoneos-arm64.deb
+Size: 10418
+MD5sum: d0f444040e31f4acf6b2a88100111cbe
+SHA1: 02e524494cc6fc1d58ff04dde43a2ad148e3d731
+SHA256: 57a7939ca0f2c707a913df2401d335d27e6809ce23eef213f4bed5fc0297e5e0
+Section: Tweaks
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Author: crctdd
+Name: SharingX
+
+Package: com.crctdd.sharingx
+Version: 0.0.3
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 92
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.3_iphoneos-arm64e.deb
+Size: 9018
+MD5sum: 65f906993f724195598ac9cebef39541
+SHA1: 8239bea9700b5236ff9f7f77b79e84586ac52341
+SHA256: 5e17eaa8e32480022fb3704cfa1d3d07a580bdc5f9fab9730b7db14f9f110561
+Section: Tweaks
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Author: crctdd
+Name: SharingX
+
+Package: com.crctdd.sharingx
+Version: 0.0.3
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 17.0), firmware (<< 18.0)
+Filename: ./debs/com.crctdd.sharingx_0.0.3_iphoneos-arm64.deb
+Size: 11902
+MD5sum: 56bf49f4d69e11231dbc81a42022f006
+SHA1: 657f83bccd79566ef1378f6bc573709cdd9a2e6b
+SHA256: 74470168bf3b38537d7108b5054cf78fb780d7c9c1be846fe1b2581a69e0dc90
+Section: Tweaks
+Description: iOS17接收隔空投送弹出系统分享面板 (照片/视频 除外)，不直接跳转；无设置项。(仅iOS 17.0+使用)
+Author: crctdd
+Name: SharingX
+
 Package: com.crctdd.shorbar
 Version: 0.0.6
 Architecture: iphoneos-arm64
