@@ -50,6 +50,42 @@ Author: zqbb
 Name: Hello 3Q
 Sileodepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: codes.aurora.kayoko
+Version: 3.6.1
+Architecture: iphoneos-arm64
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1228
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/codes.aurora.kayoko_3.6.1_iphoneos-arm64.deb
+Size: 168054
+MD5sum: 81158d5f14345de589809f7a33d0f576
+SHA1: 8bb416dd0cefc52de30bdc73079a88dcec9c3e03
+SHA256: 84b1baf83ecbad9b6b75c0d0873c4a1f10d396653b7d659f6fe912271754ba60
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+Name: Hello Kayoko
+Sileodepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: codes.aurora.kayoko
+Version: 3.6.1
+Architecture: iphoneos-arm64e
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1212
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: ./debs/codes.aurora.kayoko_3.6.1_iphoneos-arm64e.deb
+Size: 167598
+MD5sum: 06f9fc29f8b046fbfa3e7aacb3601f08
+SHA1: 99642e823819e4486227bc70954dc6cb956145f4
+SHA256: 319e67bc3af1e573851282a0ace5532e4fe4435904ab4befb78f49a40889b4e9
+Section: Tweaks
+Description: Clipboard manager for iOS.
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+Name: Hello Kayoko
+Sileodepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
 Package: com.be-huge.floating-view
 Version: 1.6.0-6
 Architecture: iphoneos-arm64
@@ -2499,6 +2535,23 @@ Tag: supports::roothide
 Author: doimty
 Name: Fix Repair System Power
 
+Package: com.doimty.fixrepairsystempower
+Version: 0.0.8-1
+Architecture: iphoneos-arm64e
+Maintainer: doimty
+Installed-Size: 76
+Depends: mobilesubstrate
+Filename: ./debs/com.doimty.fixrepairsystempower_0.0.8-1_iphoneos-arm64e.deb
+Size: 6422
+MD5sum: e6a7c340f0c6fb445de0a6b00559b1f1
+SHA1: f1b8b0370cd25707f238f0c6e37631340fa7e696
+SHA256: 1faec05d31e4cdf8eff051ba87f4610efee125b53c4b0af8dead37828d6393be
+Section: Tweaks
+Description: CPU Battery Saver Battery Connected State Not Change Remove Monitored Regions Don't Use Background Location Services No Update WiFi State Remove Pretending To Search In Telephony Manager No Has Results From Wifi Scan Disable Wifi Charger Queue Has Cellular Telephony Private Location Apps Not Using Location With Details Remove Animations Remove Animations Fake Service If Unnecessary Don't Scan For Updates Remove Check Time Zone Time Zone (Fixed) AdBlock - Block Some iAds No Automatic Sync Hidden iAds Device
+Tag: supports::roothide
+Author: doimty
+Name: Fix Repair System Power
+
 Package: com.doimty.nrmanager
 Version: 1.7.5
 Architecture: iphoneos-arm64
@@ -3239,6 +3292,44 @@ Author: SINI
 Icon: https://sini921.github.io/repo/sileodepiction/icon/zoomanimation.png
 Name: ZoomAnimation(rootless)
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/zoomanimation/js.json
+
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-2
+Architecture: iphoneos-arm64
+Maintainer: TIGI Software
+Installed-Size: 32812
+Depends: firmware (>= 15.0)
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-2_iphoneos-arm64.deb
+Size: 11124204
+MD5sum: d7b707f7ae3d85334d2432298bf0a4ff
+SHA1: dfd9fcddb1d1042abead784d176ba300ef2cd6b8
+SHA256: b584a1c1b7e1df11fa32c646255c5318f38cea5062ea3b0eab8910bdead8ec56
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.tigisoftware.filza64bit
+Version: 5.0.1-2~roothide
+Architecture: iphoneos-arm64e
+Maintainer: TIGI Software
+Installed-Size: 28426
+Depends: firmware (>= 15.0), com.roothide.patchloader, ellekit
+Recommends: zip, tar
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39, roothide.patches.filza
+Replaces: roothide.patches.filza
+Provides: patches-com.tigisoftware.filza64bit (= 5.0.1-2~roothide)
+Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-2~roothide_iphoneos-arm64e.deb
+Size: 11295456
+MD5sum: 0d7dc813076bb8537939b06a743c0eb7
+SHA1: eb51bc944cc1397651dc5f48d3c9bb8025d5e40d
+SHA256: 2346296775f8dfb6d8857c7b51c06e3be0e0e7d35f8bd3d2c9d308a30ca35645
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
 
 Package: com.udevs.vedette
 Version: 1.1.5
