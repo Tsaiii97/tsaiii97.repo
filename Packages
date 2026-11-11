@@ -3706,3 +3706,19 @@ Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Name: NewTerm 3 Beta
 Support: https://hashbang.productions/support/
 
+Package: xcode-any-debug
+Version: 0.0.3-1+debug
+Architecture: iphoneos-arm64e
+Maintainer: roothide
+Installed-Size: 156
+Depends: ldid, mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/xcode-any-debug_0.0.3-1+debug_iphoneos-arm64e.deb
+Size: 6072
+MD5sum: d588ef1a82711c7ce1f2afdf1fddd247
+SHA1: 9195fa560beee321c4fb5f5aaee300116a3788f1
+SHA256: 476c1bd4b26c94a258d4e401727cf8b3543b9589e6577c14238f2afb7264debd
+Section: Tweaks
+Description: debug any process with xcode (jailbroken required)
+Author: roothide
+Name: Xcode Any Debug
+
