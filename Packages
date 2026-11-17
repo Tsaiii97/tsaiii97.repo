@@ -3572,26 +3572,6 @@ Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This v
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.tigisoftware.filza64bit
-Version: 5.0.1-4~roothide
-Architecture: iphoneos-arm64e
-Maintainer: TIGI Software
-Installed-Size: 28867
-Depends: firmware (>= 15.0), com.roothide.patchloader, ellekit
-Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
-Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
-Replaces: roothide.patches.filza
-Provides: patches-com.tigisoftware.filza64bit (= 5.0.1-4~roothide)
-Filename: ./debs/com.tigisoftware.filza64bit_5.0.1-4~roothide_iphoneos-arm64e.deb
-Size: 12530664
-MD5sum: 4542287cad9db1ad4c6a6c19cd8b9dc6
-SHA1: 9743f8d1b66813bb2189cad64a17c2a70414c9b0
-SHA256: c00c3bdd079669ffae51d1469510778cb19e40b4ffbd183da972d2257b44189a
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 15+. This version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
 Package: com.udevs.vedette
 Version: 1.1.5
 Architecture: iphoneos-arm64e
