@@ -1263,6 +1263,22 @@ Description: 优化Safari浏览器网页流畅度。(仅在 Dopamine roothide iO
 Author: crctdd
 Name: Optimize Safari
 
+Package: com.crctdd.optimize-safari
+Version: 0.0.2
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 76
+Depends: firmware (>= 17.0), firmware (<< 17.1), mobilesubstrate
+Filename: ./debs/com.crctdd.optimize-safari_0.0.2_iphoneos-arm64e.deb
+Size: 6890
+MD5sum: 63c3c751eb6cd14176ddd70fb2633a23
+SHA1: e43c318be75732efb90b15a0fdd2888fc3f7f1be
+SHA256: a15f285514bd47aaa45fc4a95db3b9f6674ce9cc8ce7ccdcb7d9944648f89cb4
+Section: Tweaks
+Description: 优化Safari浏览器网页流畅度。(仅在 Dopamine roothide iOS17.0 测试)
+Author: crctdd
+Name: Optimize Safari
+
 Package: com.crctdd.optimizesystem
 Version: 0.0.1
 Architecture: iphoneos-arm64e
