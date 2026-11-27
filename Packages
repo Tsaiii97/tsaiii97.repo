@@ -2511,6 +2511,22 @@ Description: 轻量后台守护插件，支持多种运行方式与任务角色�
 Author: crctdd
 Name: StayAlive Lite
 
+Package: com.crctdd.stream-mcp
+Version: 0.0.1
+Architecture: iphoneos-arm64e
+Maintainer: crctdd
+Installed-Size: 840
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.crctdd.stream-mcp_0.0.1_iphoneos-arm64e.deb
+Size: 142438
+MD5sum: 9104171df02b38ec72ae6c3454cad00f
+SHA1: 4f7299af6b011873699ff6c06a28d3da9dcab68e
+SHA256: 5410ee54d0f826a1ddf448eb02fe70294d13b6871d2a23e5af91eb7c07ce3843
+Section: Tweaks
+Description: 在Stream 1.0.6版本测试。
+Author: crctdd
+Name: Stream MCP
+
 Package: com.crctdd.surgeactive
 Version: 0.0.3
 Architecture: iphoneos-arm64e
