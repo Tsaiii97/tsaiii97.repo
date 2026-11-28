@@ -2513,6 +2513,22 @@ Name: StayAlive Lite
 
 Package: com.crctdd.stream-mcp
 Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: crctdd
+Installed-Size: 840
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.crctdd.stream-mcp_0.0.1_iphoneos-arm64.deb
+Size: 142742
+MD5sum: b10405339075fd2163ad6bb25ef3c3ad
+SHA1: 20d81d001a6dd466f59d75502c9e242fbd58b7b3
+SHA256: f3f2fe61c7a1f7a2ea0e225c6452c616750d01c9f1d237fe89b65e821e868ac0
+Section: Tweaks
+Description: 在Stream 1.0.6版本测试。
+Author: crctdd
+Name: Stream MCP
+
+Package: com.crctdd.stream-mcp
+Version: 0.0.1
 Architecture: iphoneos-arm64e
 Maintainer: crctdd
 Installed-Size: 840
